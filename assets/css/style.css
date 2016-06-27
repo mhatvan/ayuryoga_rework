@@ -1,0 +1,168 @@
+    /*
+
+
+TODO:
+
+einbinden von om in background
+
+bei 1024px responsive logo und nav kollidieren fast // weiter nach links rücken
+
+content fertig machen,
+hochladen und michaela schicken, designvorschläge holen und ob die ganzen Navigationshierarchien passen
+
+*/
+    
+    html {
+        font-size: 62.5%;
+    }
+
+    /* Custom, iPhone Retina */
+    
+    @media only screen and (min-width: 320px) {
+        html {
+            font-size: 62.5%;
+        }
+    }
+    /* Extra Small Devices, Phones */
+    
+    @media only screen and (min-width: 480px) {
+        html {
+            font-size: 65%;
+        }
+    }
+    /* Small Devices, Tablets */
+    
+    @media only screen and (min-width: 768px) {
+        html {
+            font-size: 70%;
+        }
+    }
+    /* Medium Devices, Desktops */
+    
+    @media only screen and (min-width: 992px) {
+        html {
+            font-size: 75%;
+        }
+    }
+    /* Large Devices, Wide Screens */
+    
+    @media only screen and (min-width: 1200px) {
+        html {
+            font-size: 80%;
+        }
+    }
+
+    li {
+        font-size: 120%;
+    }
+    
+    body {
+        font-family: 'Lora', serif;
+        font-size: 1.6rem;
+        color: #000000;
+        background-color: #FEFDD0;
+        position: relative;
+        text-align: center;
+    }
+    
+    .header {
+        background-color: #FFFBA3;
+        border-bottom: 2px solid rgba(245, 142, 35, 0.63);
+    }
+    
+    .footer {
+        background-color: #FFFBA3;
+        padding-top: 20px;
+        padding-bottom: 10px;
+        border-top: 2px solid rgba(245, 142, 35, 0.63);
+    }
+    
+    .content {
+        background-color: #FEFDD0;
+        padding: 20px 50px;
+    }
+    
+    p {
+        letter-spacing: 0.5px;
+    }
+
+    /*.om {
+    background-image: url("../img/pranava--om--ios-7-interface-symbol_318-35432.png");
+    background-repeat: no-repeat;
+    background-position: center;
+}*/
+    
+    #logo {
+        padding: 20px 0px;
+    }
+
+    @media only screen and (min-width: 768px) {
+        .nav {
+            -webkit-transform: translate(0%, 60%);
+            transform: translate(0%, 60%);
+        }
+    }
+    
+    @media only screen and (min-width: 992px) {
+        .nav {
+            -webkit-transform: translate(0%, 100%);
+            transform: translate(0%, 100%);
+        }
+    }
+    
+    @media (min-width: 768px) {
+        .nav-justified>li {
+            display: table-cell;
+            width: 0%;
+        }
+    }
+    
+    @media (min-width: 992px) {
+        .nav-justified>li {
+            display: table-cell;
+            width: 1%;
+        }
+    }
+
+    a,
+    a:link,
+    a:visited,
+    a:focus,
+    a:active {
+        color: #BD0B12;
+        text-decoration: none;
+        border-radius: 0;
+        border: 1px solid #FFFBA3;
+    }
+
+    
+    .nav>li>a:focus,
+    .nav>li>a:hover,
+    .nav .open>a,
+    .nav .open>a:focus,
+    .nav .open>a:hover {
+        background-color: rgba(245, 142, 35, 0.1);
+        border-radius: 30px;
+        border: 1px solid rgba(245, 142, 35, 0.83);
+        /*        font-style: italic;*/
+        font-weight: 600;
+        /*        text-decoration: underline;*/
+        
+    }
+    
+    .nav-pills>li>a {
+        border-radius: 0;
+    }
+    
+    .dropdown-menu>li>a {
+        color: #BD0B12;
+    }
+    
+    #impressum {
+        font-size: 70%;
+        color: rgb(0, 0, 0);
+    }
+    
+    .img-responsive {
+        display: inline;
+    }
