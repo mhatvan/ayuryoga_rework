@@ -1,8 +1,6 @@
     /*
 
-
-TODO:
-
+REMINDER:
 
 ../assets/css funktioniert mit livepreview von brackets
 
@@ -10,11 +8,37 @@ index html manuell aufrufen mit nur assets/css/style.css
 
 server checkt ebenfalls nur assets/css/style.css
 
-------
+---
+
+TODO:
+
+OM einbauen, opacity runter in photoshop
+
+LINKS fehlt noch in der nav?
+
+gutscheinaktion -> bei width weniger 800px gutschein img hidden
+
+gutschein img wächst bei small tablet
+
+background img ladet bei jedem html page wechsel, statisch machen bzw 1 mal nur requesten?
+
+minifien, alle bootstrap die nicht eingebunden sind löschen
+
+index html leserlich machen fließtext
+
+alles mittig machen
+
+content zu kurz -> damit footer unten bleibt responsive machen
+
+bildern etc gute namen geben, seo
+
+img optimization mit kraken io
+
+swami nivedanananda sonderprogramm linken am index
 
 alle titles je nach nav page ändern
 
-Formvalidation bei Kontakt
+Formvalidation bei Kontakt!!! 
 
 Bankverbindung: IBAN: AT02 3200 0000 0258 0926
 
@@ -41,6 +65,8 @@ hochladen und michaela schicken, designvorschläge holen und ob die ganzen Navig
     html {
         font-size: 62.5%;
         overflow-x: hidden;
+        overflow-y: scroll;
+        min-width: 320px;
     }
     /* Custom, iPhone Retina */
     
@@ -89,7 +115,8 @@ hochladen und michaela schicken, designvorschläge holen und ob die ganzen Navig
         background-color: #FEFDD0;
         position: relative;
         text-align: center;
-        width: calc(100vw);
+        height: 100%;
+        line-height: 1.5;
     }
     
     p {
@@ -115,7 +142,17 @@ hochladen und michaela schicken, designvorschläge holen und ob die ganzen Navig
     
     .content {
         background-color: #FEFDD0;
-        padding: 10px 20px;
+        padding: 20px 50px;
+        min-height: 729px;
+        height: auto !important;
+        height: 729px;
+    }
+    /* Small Devices, Tablets */
+    
+    @media only screen and (max-width: 767px) {
+        .content {
+            padding: 20px 20px;
+        }
     }
     
     .left-align {
@@ -129,7 +166,7 @@ hochladen und michaela schicken, designvorschläge holen und ob die ganzen Navig
     background-image: url("../img/pranava--om--ios-7-interface-symbol_318-35432.png");
     background-repeat: no-repeat;
     background-position: center;
-}*/
+    }*/
     
     #logo {
         padding: 20px 0px;
@@ -152,16 +189,6 @@ hochladen und michaela schicken, designvorschläge holen und ob die ganzen Navig
             -o-transform: translate(0%, 120%);
             -ms-transform: translate(0%, 120%);
             transform: translate(0%, 120%);
-        }
-    }
-    
-    @media only screen and (min-width: 1280px) {
-        .nav {
-            /*     -webkit-transform: translate(0%, 120%);
-            -moz-transform: translate(0%, 120%);
-            -o-transform: translate(0%, 120%);
-            -ms-transform: translate(0%, 120%);
-            transform: translate(0%, 120%);*/
         }
     }
     
@@ -238,6 +265,7 @@ hochladen und michaela schicken, designvorschläge holen und ob die ganzen Navig
     
     hr {
         border-color: #000000;
+        width: 60%;
     }
     
     .form-control {
@@ -253,4 +281,48 @@ hochladen und michaela schicken, designvorschläge holen und ob die ganzen Navig
     
     .nav-pills>li>a {
         border-radius: 0;
+    }
+    
+    .bg-img {
+        background-image: url(../img/photo-1429277096327-11ee3b761c93.jpg);
+        background-attachment: fixed;
+        /*        overflow: hidden;*/
+        min-height: 100%;
+        /*        min-width: 960px;*/
+    }
+    
+    #gutschein {
+        max-width: 60%;
+    }
+    
+    @media only screen and (max-width: 600px) {
+        #gutschein {
+            max-width: 80%;
+        }
+    }
+    
+    @media only screen and (max-width: 320px) {
+        #gutschein {
+            max-width: 100%;
+        }
+    }
+    
+    @media only screen and (min-width: 1200px) {
+        #friends {
+            line-height: 80px;
+        }
+    }
+    
+    ul {
+        /*    list-style-position: inside;*/
+    }
+    
+    .border {
+        margin-top: 30px;
+        margin-bottom: 30px;
+        border-bottom: 1px solid black;
+    }
+    
+    #plakat-yogalehrerausbildung {
+        padding: 10px 0 20px 0;
     }
