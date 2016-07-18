@@ -12,29 +12,45 @@ server checkt ebenfalls nur assets/css/style.css
 
 TODO:
 
+_Yoga 
+
+/ Intensiv Wochenendkurs?
+/ Vertiefungskurse?
+/ therapie, yogische ernährung etc
+
+
+
+DAS TEAM
+
+Tabelle Preise geht gar niht, unübersichtlich mobile, lieber vertikal arbeiten
+
+min width 320px? irgendwas passt net, auf kleinster stufe is content zuweit rechts
+
+Stundenplan u Preise, Michaela fragen wie sie es will bei mobile, als liste?
+
+safari b und em tags sehen seltsam aus
+
+gehostete seite auf rework.ayuryoga -> navbar resized sich jedes mal erst auf die richtige größe und bg img reload 
+
+team einbauen mit fotos etc
+
+abgleichen was mit nuad und den anderen alten navs sind
+
+responsive stundenplan als JPG? ODER EINFACH NE LISTE
+
 OM einbauen, opacity runter in photoshop
 
 LINKS fehlt noch in der nav?
 
-gutscheinaktion -> bei width weniger 800px gutschein img hidden
-
-gutschein img wächst bei small tablet
-
 background img ladet bei jedem html page wechsel, statisch machen bzw 1 mal nur requesten?
 
-minifien, alle bootstrap die nicht eingebunden sind löschen
-
-index html leserlich machen fließtext
+minifien, alle bootstrap etc daten die nicht eingebunden sind löschen
 
 alles mittig machen
-
-content zu kurz -> damit footer unten bleibt responsive machen
 
 bildern etc gute namen geben, seo
 
 img optimization mit kraken io
-
-swami nivedanananda sonderprogramm linken am index
 
 alle titles je nach nav page ändern
 
@@ -43,22 +59,7 @@ Formvalidation bei Kontakt!!!
 Bankverbindung: IBAN: AT02 3200 0000 0258 0926
 
 lautend auf Michaela Kloosterman, bei Raiffeisen LB W/NÖ
-REINGEBEN BEI STUNDENPLAN UND PREISE
-
-über uns clickable und trotzdem dropdown menü?
-
-über uns springt alles nach rechts --> BUGGY weil sobald footer mehr als window -> scrollbar poppt auf und schiebt nach rechts
-
-border collapse issues bei li
-
-support devices > FULL HD ?? microsoft doenst support either -> KINDLE FIRE HDX
-
-einbinden von om in background
-
-bei 1024px responsive logo und nav kollidieren fast // weiter nach links rücken
-
-content fertig machen,
-hochladen und michaela schicken, designvorschläge holen und ob die ganzen Navigationshierarchien passen
+REINGEBEN BEI STUNDENPLAN UND PREISE?? MICHAELA FRAGEN
 
 */
     
@@ -66,7 +67,6 @@ hochladen und michaela schicken, designvorschläge holen und ob die ganzen Navig
         font-size: 62.5%;
         overflow-x: hidden;
         overflow-y: scroll;
-        min-width: 320px;
     }
     /* Custom, iPhone Retina */
     
@@ -116,7 +116,9 @@ hochladen und michaela schicken, designvorschläge holen und ob die ganzen Navig
         position: relative;
         text-align: center;
         height: 100%;
-        line-height: 1.5;
+        line-height: 2;
+        min-width: 320px;
+        margin: auto;
     }
     
     p {
@@ -142,10 +144,10 @@ hochladen und michaela schicken, designvorschläge holen und ob die ganzen Navig
     
     .content {
         background-color: #FEFDD0;
-        padding: 20px 50px;
-        min-height: 729px;
+        padding: 20px 60px;
+        min-height: 723px;
         height: auto !important;
-        height: 729px;
+        height: 723px;
     }
     /* Small Devices, Tablets */
     
@@ -162,11 +164,6 @@ hochladen und michaela schicken, designvorschläge holen und ob die ganzen Navig
     .center-align {
         text-align: center;
     }
-    /*.om {
-    background-image: url("../img/pranava--om--ios-7-interface-symbol_318-35432.png");
-    background-repeat: no-repeat;
-    background-position: center;
-    }*/
     
     #logo {
         padding: 20px 0px;
@@ -265,7 +262,9 @@ hochladen und michaela schicken, designvorschläge holen und ob die ganzen Navig
     
     hr {
         border-color: #000000;
-        width: 60%;
+        max-width: 50%;
+        margin-top: 30px;
+        margin-bottom: 30px;
     }
     
     .form-control {
@@ -292,18 +291,12 @@ hochladen und michaela schicken, designvorschläge holen und ob die ganzen Navig
     }
     
     #gutschein {
-        max-width: 60%;
-    }
-    
-    @media only screen and (max-width: 600px) {
-        #gutschein {
-            max-width: 80%;
-        }
+        max-width: 50%;
     }
     
     @media only screen and (max-width: 320px) {
         #gutschein {
-            max-width: 100%;
+            display: none;
         }
     }
     
@@ -323,6 +316,75 @@ hochladen und michaela schicken, designvorschläge holen und ob die ganzen Navig
         border-bottom: 1px solid black;
     }
     
+    @media only screen and (max-width: 1199px) {
+        .border-kontakt {
+            margin-top: 30px;
+            margin-bottom: 10px;
+            border-bottom: 1px solid black;
+        }
+    }
+    
     #plakat-yogalehrerausbildung {
         padding: 10px 0 20px 0;
+    }
+    
+    table,
+    th,
+    tr,
+    td {
+        border: 1px solid rgb(245, 142, 35);
+        background-color: #FFFBA3;
+        text-align: center;
+        padding: 10px;
+    }
+    
+    th {
+        font-style: italic;
+        font-weight: 600;
+        letter-spacing: 2px;
+        width: 30px;
+    }
+    
+    #table-slide {
+        table-layout: fixed;
+        overflow: auto;
+    }
+    
+    #stretch-row {
+        height: 12rem;
+    }
+    
+    #split {
+        border-top: 3px solid rgb(245, 142, 35);
+    }
+    
+    .panel-group {
+        margin-bottom: 0;
+        padding: 0 0 5px 0;
+    }
+    
+    .panel {
+        background-color: #FFFBA3;
+        width: 100%;
+        margin: auto;
+    }
+    
+    .panel li {
+        text-align: left;
+    }
+    
+    .portrait {
+        float: right;
+        padding: 5px 20px 30px 20px;
+    }
+    
+    @media only screen and (max-width: 767px) {
+        .portrait {
+            float: none;
+            padding: 5px 20px 20px 20px;
+        }
+    }
+    
+    .panel-default>.panel-heading {
+        background-color: rgba(245, 142, 35, 0.15);
     }
