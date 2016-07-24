@@ -15,7 +15,7 @@
     <meta name="copyright" content="www.ayuryoga.at">
     <meta name="author" content="Markus Hatvan">
 
-    <title> Ayuryoga - Yoga-Ayurveda-Meditation </title>
+    <title> AYURYOGA / Impressum </title>
 
     <!-- Bootstrap -->
     <link href="assets/css/bootstrap.min.css" rel="stylesheet">
@@ -31,70 +31,13 @@
       <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
     <![endif]-->
 
-    <!-- 
-       
-       <script>
-        $("#header").load("header.html");
-    </script>
-    
-    -->
-
 </head>
 
 <body>
+   
+    <!-- HEADER -->
 
-    <!--
-
-    <div id="header"></div>
-
-    <div id="footer"></div>
-
--->
-
-    <!--------------------------------- HEADER ---------------------->
-
-    <div class="bg-img">
-        <div class="container header">
-
-            <div class="col-xs-12 col-sm-3">
-                <div>
-                    <a href="index.html"><img src="assets/img/Studio%20AyurYoga_FA%20logo_Color.png" alt="Ayuryoga" width=200 id="logo" class="img-responsive"> </a>
-                </div>
-            </div>
-
-            <div class="col-xs-12 col-sm-9">
-                <ul class="nav nav-pills nav-justified">
-                    <li role="presentation"><a href="index.html"> Home </a></li>
-
-                    <li role="presentation" class="dropdown"><a href="_ueber_uns/ueber_uns.html" class="dropdown-toggle disabled" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false"> Über uns <span class="caret"></span></a>
-                        <ul class="dropdown-menu">
-                            <li> <a href="_ueber_uns/das_team.html"> Das Team </a></li>
-                            <li> <a href="_ueber_uns/anfahrt.html"> Anfahrt </a></li>
-                            <li> <a href="_ueber_uns/kontakt.html"> Kontakt </a></li>
-                        </ul>
-                    </li>
-
-                    <li role="presentation" class="dropdown"><a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false"> Yoga <span class="caret"></span></a>
-                        <ul class="dropdown-menu">
-                            <li> <a href="_yoga/was_ist_yoga.html"> Was ist Yoga? </a></li>
-                            <li> <a href="_yoga/stundenbeschreibungen.html"> Stundenbeschreibungen </a></li>
-                            <li> <a href="_yoga/stundenplan_u_preise.html"> Stundenplan & Preise </a></li>
-                            <li> <a href="_yoga/kurse.html"> Kurse </a></li>
-                        </ul>
-                    </li>
-
-                    <li role="presentation"><a href="../termine.html"> Termine</a></li>
-
-                    <li role="presentation" class="dropdown"><a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Ausbildung <span class="caret"></span></a>
-                        <ul class="dropdown-menu">
-                            <li> <a href="_ausbildung/yogalehrerausbildung.html"> Yogalehrerausbildung </a></li>
-                            <li> <a href="_ausbildung/sonstige.html"> Sonstige</a></li>
-                        </ul>
-                    </li>
-                </ul>
-            </div>
-        </div>
-
+    <?php include("includes/header.php"); ?>
 
 
         <!--------------------------------- CONTENT ---------------------->
@@ -107,7 +50,7 @@
                 <h2> Impressum / Offenlegung gemäß § 25 Mediengesetz</h2>
                 <p><strong>Medieninhaber, Herausgeber und für den Inhalt verantwortlich:</strong></p>
 
-                <p> <a href="#">Michaela Kloosterman</a></p>
+                <p> Michaela Kloosterman</p>
                 <strong>Studio AyurYoga</strong>
                 <p>1210 Wien, Am Spitz 16/14</p>
 
@@ -134,7 +77,7 @@
                 <p>Studio AyurYoga übernimmt keine Verantwortung für deren Inhalt.</p>
 
                 <br>
-                <br>
+                
                 <p> Webmaster: Markus Hatvan </p>
 
             </div>
@@ -145,26 +88,21 @@
         <!--------------------------------- FOOTER ---------------------->
 
 
-        <div class="container footer">
-            <p> © 2016 Ayuryoga </p>
-            <a href="impressum.html" id="impressum"> Impressum </a>
+            <!-- FOOTER -->
 
-        </div>
+       
+        <?php include("includes/footer.php");?>
+        
+
+        <!-- TRENNER -->
 
 
         <!--------------------------------- TRENNER ---------------------->
-
-  </div>
 
         <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
         <!-- Include all compiled plugins (below), or include individual files as needed -->
         <script src="assets/js/bootstrap.min.js"></script>
-
-        <script>
-            $("#header").load("header.html");
-            //        $("#footer").load("footer.html");
-        </script>
 
 </body>
 

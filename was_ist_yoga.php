@@ -15,12 +15,12 @@
     <meta name="copyright" content="www.ayuryoga.at">
     <meta name="author" content="Markus Hatvan">
 
-    <title> Ayuryoga - Yoga-Ayurveda-Meditation </title>
+    <title> Was ist Yoga? | AyurYoga </title>
 
     <!-- Bootstrap -->
-    <link href="../assets/css/bootstrap.min.css" rel="stylesheet">
-    <link href="../assets/css/style.css" rel="stylesheet">
-    <link rel="icon" href="../favicon.ico">
+    <link href="assets/css/bootstrap.min.css" rel="stylesheet">
+    <link href="assets/css/style.css" rel="stylesheet">
+    <link rel="icon" href="favicon.ico">
 
     <link href='https://fonts.googleapis.com/css?family=Lora' rel='stylesheet' type='text/css'>
 
@@ -31,70 +31,16 @@
       <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
     <![endif]-->
 
-    <!-- 
-       
-       <script>
-        $("#header").load("header.html");
-    </script>
-    
-    -->
 
 </head>
 
 <body>
 
-    <!--
 
-    <div id="header"></div>
+    <!-- HEADER -->
 
-    <div id="footer"></div>
+    <?php include("includes/header.php"); ?>
 
--->
-
-    <!--------------------------------- HEADER ---------------------->
-
-    <div class="bg-img">
-        <div class=" container header">
-
-            <div class="col-xs-12 col-sm-3">
-                <div>
-                    <a href="../index.html"><img src="../assets/img/Studio%20AyurYoga_FA%20logo_Color.png" alt="Ayuryoga" width=200 id="logo" class="img-responsive"> </a>
-                </div>
-            </div>
-
-            <div class="col-xs-12 col-sm-9">
-                <ul class="nav nav-pills nav-justified">
-                    <li role="presentation"><a href="../index.html"> Home </a></li>
-
-                    <li role="presentation" class="dropdown"><a href="../_ueber_uns/ueber_uns.html" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false"> Über uns <span class="caret"></span></a>
-                        <ul class="dropdown-menu">
-                            <li> <a href="../_ueber_uns/das_team.html"> Das Team </a></li>
-                            <li> <a href="../_ueber_uns/anfahrt.html"> Anfahrt </a></li>
-                            <li> <a href="../_ueber_uns/kontakt.html"> Kontakt </a></li>
-                        </ul>
-                    </li>
-
-                    <li role="presentation" class="dropdown"><a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false"> Yoga <span class="caret"></span></a>
-                        <ul class="dropdown-menu">
-                            <li> <a href="../_yoga/was_ist_yoga.html"> Was ist Yoga? </a></li>
-                            <li> <a href="../_yoga/stundenbeschreibungen.html"> Stundenbeschreibungen </a></li>
-                            <li> <a href="../_yoga/stundenplan_u_preise.html"> Stundenplan & Preise </a></li>
-                            <li> <a href="../_yoga/kurse.html"> Kurse </a></li>
-                        </ul>
-                    </li>
-
-                    <li role="presentation"><a href="../_termine/termine.html"> Termine</a></li>
-
-                    <li role="presentation" class="dropdown"><a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Ausbildung <span class="caret"></span></a>
-                        <ul class="dropdown-menu">
-                            <li> <a href="../_ausbildung/yogalehrerausbildung.html"> Yogalehrerausbildung </a></li>
-                            <li> <a href="../_ausbildung/sonstige.html"> Sonstige</a></li>
-                        </ul>
-                    </li>
-                </ul>
-
-            </div>
-        </div>
 
         <!--------------------------------- CONTENT ---------------------->
 
@@ -108,32 +54,32 @@
                 <p>Yoga ist ein Weg, eine Wissenschaft, die uns über verschiedene Techniken, wie z.B. Atemübungen (Pranayama), Körperübungen (Asanas) und Entspannungsübungen dorthin führt, wo jeder von uns hinstrebt:
                 </p>
                 <p> <b>Zur Einheit mit uns Selbst.</b></p>
-                
+
                 <br>
-                
+
                 <p>Yoga bedeutet aus dem Sanskrit übersetzt &quot;<i>Verbindung</i>&quot; und kann als Werkzeug betrachtet werden. Ein Werkzeug, das uns dabei unterstützt, die Brücken zu bauen, über die wir zu unserer <i>inneren Quelle</i> gelangen. </p>
                 <p>
                     Gleichzeitig entwickeln wir auf dem Yogaweg ein neues Bewusstsein uns selbst und unserer Umwelt gegenüber. </p>
-                    
+
                 <br>
-                
+
                 <p>
                     Yoga ist auch eine <b>Lebensphilosophie</b>, die jedes Potential in sich birgt, um individuell unser körperliches, geistiges und seelisches Wohlbefinden zu heben. </p>
                 <p>Ein Weg, der uns auf sanfte Weise zu einer harmonischen Ausgeglichenheit führt.</p>
                 <p>Diese innere Ausgeglichenheit gibt uns Ruhe und Harmonie, in der wir die Kraft finden, die wir benötigen, um unseren Alltag freudvoll, friedvoll, auch unter Druck, im liebevollen Miteinander zu meistern. </p>
                 <p>
                     Ganz egal, aus welchen Gründen wir zu Yoga finden, ob Stress, Rückenschmerzen, spirituelle Suche oder andere Gründe, mit Entschlossenheit, Regelmäßigkeit und zumindest ein wenig Disziplin wird sich ein positiver Effekt rasch einstellen. </p>
-                    
+
                 <br>
-                
+
                 <p><b>HATHA YOGA</b>, als die im Westen am bekannteste und am meisten praktizierteste Form des Yoga, nimmt seinen Einfluss auf unser Blut-, Muskel-, Nerven-, Knochen-, Hormon- und Mentalsystem über verschiedene Körper- und Reinigungsübungen. </p>
                 <p>Wodurch wir uns von Blockaden vielerlei Art befreien und zu einem glücklichen Leben finden können.</p>
                 <p> Und Hatha Yoga ist auch der Hauptteil unseres Unterrichtsstiles.</p>
                 <p> Unser Anliegen ist es, dir die nötige Unterstützung zu geben, um Yoga gut in deinen Alltag, in dein Leben zu integrieren.</p>
                 <p> Zusammen macht es einfach mehr Spaß und in der Gruppe übt es sich definitiv leichter. Und dazu findest du bei uns die optimalen Bedingungen.</p>
-                
+
                 <br>
-                
+
                 <p><b>Schön, dass du deinen Weg zu uns gefunden hast!</b></p>
                 <p>Wir beraten und unterstützen dich gerne bei deinen Fragen und Anliegen rund um Yoga.</p>
 
@@ -142,29 +88,22 @@
         </div>
 
 
-        <!--------------------------------- FOOTER ---------------------->
+        <!-- FOOTER -->
 
 
-        <div class="container footer">
-            <p> © 2016 Ayuryoga </p>
-            <a href="../impressum.html" id="impressum"> Impressum </a>
-
-        </div>
+        <?php include("includes/footer.php");?>
 
 
-        <!--------------------------------- TRENNER ---------------------->
+            <!-- TRENNER -->
 
-    </div>
 
-    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
-    <!-- Include all compiled plugins (below), or include individual files as needed -->
-    <script src="../assets/js/bootstrap.min.js"></script>
+            <!--------------------------------- TRENNER ---------------------->
 
-    <script>
-        $("#header").load("header.html");
-        //        $("#footer").load("footer.html");
-    </script>
+
+            <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+            <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+            <!-- Include all compiled plugins (below), or include individual files as needed -->
+            <script src="assets/js/bootstrap.min.js"></script>
 
 </body>
 

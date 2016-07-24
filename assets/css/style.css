@@ -1,16 +1,16 @@
-    /*
+/*
 
-REMINDER:
+IE: flickering background image, background keeps reloading, logo kurven pixelig
+Safari: font styling em and strong looks shit
+Chrome: passt
+Opera: passt
+firefox: passt
 
-../assets/css funktioniert mit livepreview von brackets
-
-index html manuell aufrufen mit nur assets/css/style.css
-
-server checkt ebenfalls nur assets/css/style.css
+strange nav reloading disappeared?
 
 ---
 
-TODO:
+MICHAELA FRAGEN:
 
 _Yoga 
 
@@ -18,48 +18,42 @@ _Yoga
 / Vertiefungskurse?
 / therapie, yogische ernährung etc
 
-
-
-DAS TEAM
-
-Tabelle Preise geht gar niht, unübersichtlich mobile, lieber vertikal arbeiten
-
-min width 320px? irgendwas passt net, auf kleinster stufe is content zuweit rechts
-
-Stundenplan u Preise, Michaela fragen wie sie es will bei mobile, als liste?
-
-safari b und em tags sehen seltsam aus
-
-gehostete seite auf rework.ayuryoga -> navbar resized sich jedes mal erst auf die richtige größe und bg img reload 
-
-team einbauen mit fotos etc
-
 abgleichen was mit nuad und den anderen alten navs sind
-
-responsive stundenplan als JPG? ODER EINFACH NE LISTE
-
-OM einbauen, opacity runter in photoshop
-
-LINKS fehlt noch in der nav?
-
-background img ladet bei jedem html page wechsel, statisch machen bzw 1 mal nur requesten?
-
-minifien, alle bootstrap etc daten die nicht eingebunden sind löschen
-
-alles mittig machen
-
-bildern etc gute namen geben, seo
-
-img optimization mit kraken io
-
-alle titles je nach nav page ändern
-
-Formvalidation bei Kontakt!!! 
 
 Bankverbindung: IBAN: AT02 3200 0000 0258 0926
 
 lautend auf Michaela Kloosterman, bei Raiffeisen LB W/NÖ
-REINGEBEN BEI STUNDENPLAN UND PREISE?? MICHAELA FRAGEN
+REINGEBEN BEI STUNDENPLAN UND PREISE??
+
+Tabelle Preise geht gar niht, unübersichtlich mobile, lieber vertikal arbeiten
+
+Stundenplan u Preise, Michaela fragen wie sie es will bei mobile, als liste?
+
+LINKS fehlt noch in der nav?
+
+ADWORDS / Google Analytics?
+
+---
+
+TODO:
+
+
+pagespeed insights checken
+
+change TITLES to Über uns | AYURYOGA
+
+DAS TEAM
+team einbauen mit fotos etc
+
+minifien, alle bootstrap etc daten die nicht eingebunden sind löschen
+
+bildern etc gute namen geben, seo.doc schauen
+
+img optimization mit kraken io
+
+Formvalidation bei Kontakt!!! 
+
+ayuryoga.at neu backuppen, url transferieren auf ayuryoga.at,
 
 */
     
@@ -103,11 +97,7 @@ REINGEBEN BEI STUNDENPLAN UND PREISE?? MICHAELA FRAGEN
             /*            font-size: 80%;*/
         }
     }
-    
-    li {
-        /*        font-size: 70%;*/
-    }
-    
+
     body {
         font-family: 'Lora', serif;
         font-size: 1.6rem;
@@ -145,11 +135,10 @@ REINGEBEN BEI STUNDENPLAN UND PREISE?? MICHAELA FRAGEN
     .content {
         background-color: #FEFDD0;
         padding: 20px 60px;
-        min-height: 723px;
+        min-height: 722px;
         height: auto !important;
-        height: 723px;
+        height: 722px;
     }
-    /* Small Devices, Tablets */
     
     @media only screen and (max-width: 767px) {
         .content {
@@ -171,21 +160,21 @@ REINGEBEN BEI STUNDENPLAN UND PREISE?? MICHAELA FRAGEN
     
     @media only screen and (min-width: 768px) {
         .nav {
-            -webkit-transform: translate(0%, 90%);
-            -moz-transform: translate(0%, 90%);
-            -o-transform: translate(0%, 90%);
-            -ms-transform: translate(0%, 90%);
-            transform: translate(0%, 90%);
+            -webkit-transform: translate(0%, 70%);
+            -moz-transform: translate(0%, 70%);
+            -o-transform: translate(0%, 70%);
+            -ms-transform: translate(0%, 70%);
+            transform: translate(0%, 70%);
         }
     }
     
     @media only screen and (min-width: 1024px) {
         .nav {
-            -webkit-transform: translate(0%, 120%);
-            -moz-transform: translate(0%, 120%);
-            -o-transform: translate(0%, 120%);
-            -ms-transform: translate(0%, 120%);
-            transform: translate(0%, 120%);
+            -webkit-transform: translate(0%, 100%);
+            -moz-transform: translate(0%, 100%);
+            -o-transform: translate(0%, 100%);
+            -ms-transform: translate(0%, 100%);
+            transform: translate(0%, 100%);
         }
     }
     
@@ -285,9 +274,7 @@ REINGEBEN BEI STUNDENPLAN UND PREISE?? MICHAELA FRAGEN
     .bg-img {
         background-image: url(../img/photo-1429277096327-11ee3b761c93.jpg);
         background-attachment: fixed;
-        /*        overflow: hidden;*/
         min-height: 100%;
-        /*        min-width: 960px;*/
     }
     
     #gutschein {
@@ -304,10 +291,6 @@ REINGEBEN BEI STUNDENPLAN UND PREISE?? MICHAELA FRAGEN
         #friends {
             line-height: 80px;
         }
-    }
-    
-    ul {
-        /*    list-style-position: inside;*/
     }
     
     .border {
