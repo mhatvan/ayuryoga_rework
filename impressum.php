@@ -17,24 +17,10 @@
 
     <title> AYURYOGA / Impressum </title>
 
-    <!-- Bootstrap -->
-    <link href="assets/css/bootstrap.min.css" rel="stylesheet">
-    <link href="assets/css/style.css" rel="stylesheet">
-    <link rel="icon" href="favicon.ico">
-
-    <link href='https://fonts.googleapis.com/css?family=Lora' rel='stylesheet' type='text/css'>
-
-    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
-    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
-    <!--[if lt IE 9]>
-      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
-      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
-    <![endif]-->
-
 </head>
 
-<body>
-   
+<body class="animate-in">
+
     <!-- HEADER -->
 
     <?php include("includes/header.php"); ?>
@@ -55,8 +41,8 @@
                 <p>1210 Wien, Am Spitz 16/14</p>
 
                 <p>Tel: 0681/101 273 81 </p>
-                <p><a href="mailto:office@ayuryoga.at"> E-Mail </a></p>
-                <p> Web: <a href="http://www.ayuryoga.at/"> www.ayuryoga.at</a></p>
+                <p><u><a href="mailto:office@ayuryoga.at"> E-Mail </a></u></p>
+                <p> Web: <u><a href="http://www.ayuryoga.at/"> www.ayuryoga.at</a></u></p>
 
                 <br>
 
@@ -77,32 +63,20 @@
                 <p>Studio AyurYoga übernimmt keine Verantwortung für deren Inhalt.</p>
 
                 <br>
-                
-                <p> Webmaster: Markus Hatvan </p>
+
+                <p class="center-align"> Webdesign: Markus Hatvan </p>
+                <p class="center-align"> Webmaster: Rudolf Sedlaczek </p>
 
             </div>
 
         </div>
 
 
-        <!--------------------------------- FOOTER ---------------------->
+        <!-- FOOTER -->
 
 
-            <!-- FOOTER -->
-
-       
         <?php include("includes/footer.php");?>
-        
 
-        <!-- TRENNER -->
-
-
-        <!--------------------------------- TRENNER ---------------------->
-
-        <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
-        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
-        <!-- Include all compiled plugins (below), or include individual files as needed -->
-        <script src="assets/js/bootstrap.min.js"></script>
 
 </body>
 

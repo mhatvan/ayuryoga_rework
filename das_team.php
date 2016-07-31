@@ -17,31 +17,16 @@
 
     <title> Das Team | AyurYoga </title>
 
-    <!-- Bootstrap -->
-    <link href="assets/css/bootstrap.min.css" rel="stylesheet">
-    <link href="assets/css/style.css" rel="stylesheet">
-    <link rel="icon" href="favicon.ico">
-
-    <link href='https://fonts.googleapis.com/css?family=Lora' rel='stylesheet' type='text/css'>
-
-    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
-    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
-    <!--[if lt IE 9]>
-      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
-      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
-    <![endif]-->
-
-
 </head>
 
-<body>
+<body class="animate-in">
 
 
     <?php include("includes/header.php"); ?>
 
         <!--------------------------------- CONTENT ---------------------->
 
-        <div class="center-align container content">
+        <div class="container content">
 
             <div class="om">
 
@@ -50,389 +35,215 @@
                 <p>Wir sind ein Team von begeisterten, leidenschaftlich praktizierenden Yogalehrern, mit Ausbildungen in verschiedenen Yogastilen und Traditionen und meist langjähriger Unterrichtserfahrung. </p>
                 <br>
 
-                <div class="row">
-                    <div class="col-xs-12 panel-group" id="accordion">
+                <div class="pinnwand">
+                    <img src="assets/img/michaela_ayuryoga.jpg" alt="Michaela Ayuryoga" class="portrait">
+                    <h4><strong>Michaela Omkari Kloosterman (Menzinger)</strong></h4>
 
-                        <div class="panel panel-default">
-                            <div class="panel-heading">
-                                <h4 class="panel-title">
-                                     <a data-toggle="collapse" data-parent="#accordion" href="#collapse-1" class="collapsed"> <strong>Michaela Omkari Kloosterman (Menzinger)</strong> </a>
-                                    </h4>
-                            </div>
-                            <div id="collapse-1" class="panel-collapse collapse">
-                                <div class="panel-body">
+                    <div>
+                        <input type="checkbox" class="read-more-state" id="post-1"/>
 
-                                    <img src="assets/img/2016-03-MK-100.jpg" class="portrait">
-                                    <ul>
-                                        <li>Gründung + Leitung des "Studio Ayuryoga" seit 2003</li>
-                                        <li>Leiterin der Yogalehrerausbildung der Yoga Akademie Austria in Wien</li>
-                                        <li>YogaAlliance E-RYT 500 zertifiziert (Experienced Registered Yoga Teacher)</li>
-                                        <li>Yogalehrerausbildung, Sivananda Tradition, Österreich</li>
-                                        <li>Fortgeschrittene Yogalehrerausbildung, Sivananda Tradition, Indien</li>
-                                        <li>Sadhana Intensiv, Sivananda Tradition, Indien</li>
-                                        <li>AcroYoga Lehrerausbildung bei Jason Nemer & Jenny Sauer-Klein</li>
-                                        <li>Ashtangayogatraining, Lino Miele, Indien</li>
-                                        <li>Laufend Weiterbildungen weltweit</li>
-                                        <li>Regelmäßig seit vielen Jahren längere Ashramaufenthalte und Aufenthalte in Indien</li>
-                                        <li>NUAD-Praktikerin, Österreich</li>
-                                        <li>NUAD Therapy + Footreflexology, Old Medicine Hospital Chiang Mai, Thailand</li>
-                                        <li>Reiki Meister & Lehrer, Österreich</li>
-                                        <li>Ayurvedicmassage, Dr. Subash Ranade, Österreich</li>
-                                        <li>Staatl. geprüfte Heilmasseurin, Österreich</li>
-                                        <li>Fußreflexzonenmassage, Bindegewebs- und Segmentmassage, Österreich</li>
-                                        <li>Akupunktmassage nach Penzl, Österreich</li>
-                                        <li>Langjährige eigene Yogapraxis und Unterrichtserfahrung</li>
-                                    </ul>
-
-                                    <br>
-
-                                    <p>
-                                        Es gibt viele Möglichkeiten, viele Wege in die Tiefen unseres eigenen Selbst einzutauchen. In die Essenz, die uns alle verbindet - die Liebe. Yoga ist ein Weg, eine fundierte Wissenschaft, die uns durch eine fast unendliche Fülle an unterschiedlichen Techniken für jeden unterschiedlichen Typus ein Werkzeug bietet, um diesen Weg in die Tiefe, im eigenen Rhythmus, im eigenen Tempo aber doch schnellstmöglich ausfindig zu machen und gehen zu können. Und irgendwo am Weg stellen wir fest: "Alles ist Yoga". Unsere Wegweiser sind Freude und Liebe im Herzen, sie zeigen uns an, dass wir richtig sind, oder auch, wenn wir dabei sind, den für uns richtigen Pfad zu verlassen.</p>
-                                    <p>
-                                        Ich bin unendlich dankbar dafür, dass mir Yoga gegeben wurde und dafür, dieses wunderbare Wissen weitergeben zu dürfen.</p>
-                                </div>
-                            </div>
+                        <ul class="read-more-wrap">
+                            <li>Gründung + Leitung des "Studio Ayuryoga" seit 2003</li>
+                            <li>Leiterin der Yogalehrerausbildung der Yoga Akademie Austria in Wien</li>
+                            <li>YogaAlliance E-RYT 500 zertifiziert (Experienced Registered Yoga Teacher)</li>
+                            <li class="read-more-target">Yogalehrerausbildung, Sivananda Tradition, Österreich</li>
+                            <li class="read-more-target">Fortgeschrittene Yogalehrerausbildung, Sivananda Tradition, Indien</li>
+                            <li class="read-more-target">Sadhana Intensiv, Sivananda Tradition, Indien</li>
+                            <li class="read-more-target">AcroYoga Lehrerausbildung bei Jason Nemer & Jenny Sauer-Klein</li>
+                            <li class="read-more-target">Ashtangayogatraining, Lino Miele, Indien</li>
+                            <li class="read-more-target">Laufend Weiterbildungen weltweit</li>
+                            <li class="read-more-target">Regelmäßig seit vielen Jahren längere Ashramaufenthalte und Aufenthalte in Indien</li>
+                            <li class="read-more-target">NUAD-Praktikerin, Österreich</li>
+                            <li class="read-more-target">NUAD Therapy + Footreflexology, Old Medicine Hospital Chiang Mai, Thailand</li>
+                            <li class="read-more-target">Reiki Meister & Lehrer, Österreich</li>
+                            <li class="read-more-target">Ayurvedicmassage, Dr. Subash Ranade, Österreich</li>
+                            <li class="read-more-target">Staatl. geprüfte Heilmasseurin, Österreich</li>
+                            <li class="read-more-target">Fußreflexzonenmassage, Bindegewebs- und Segmentmassage, Österreich</li>
+                            <li class="read-more-target">Akupunktmassage nach Penzl, Österreich</li>
+                            <li class="read-more-target">Langjährige eigene Yogapraxis und Unterrichtserfahrung</li>
+                        </ul>
+                        <label for="post-1" class="read-more-trigger"></label>
+                    </div>
+                </div>
 
 
 
+                <div class="pinnwand">
+                    <img src="assets/img/judit_ayuryoga.jpg" alt="Judit Ayuryoga" class="portrait">
+                    <h4><strong>Judit Jyothi Hochbaum</strong></h4>
 
+                    <div>
+                        <input type="checkbox" class="read-more-state" id="post-2"/>
 
-                        </div>
-
-
-
+                        <ul class="read-more-wrap">
+                            <li>Assistentin der Studio-Leitung
+                                <li>Dipl. Ernährungs- &amp; Gesundheitstrainer</li>
+                                <li>Dipl. Ayurveda Wohlfühlpraktiker, nach Siddha Ved, Österreich</li>
+                                <li class="read-more-target">Tibetische Massage, Österreich</li>
+                                <li class="read-more-target">Wirbelsäulenkorrektur nach Baba Swami Ramdas, Österreich</li>
+                                <li class="read-more-target">seit 2013 zert. Yogalehrerin, Yoga Akademie Austria, Integraler Yoga</li>
+                                <li class="read-more-target">langjährige eigene Yogapraxis</li>
+                        </ul>
+                        <label for="post-2" class="read-more-trigger"></label>
                     </div>
                 </div>
 
 
 
 
-                <div class="row">
-                    <div class="col-xs-12 panel-group" id="accordion">
+                <div class="pinnwand">
+                    <img src="assets/img/heike_ayuryoga.jpg" alt="Heike Ayuryoga" class="portrait">
+                    <h4><strong>Heike-Marie Ushá Tuider</strong></h4>
 
-                        <div class="panel panel-default">
-                            <div class="panel-heading">
-                                <h4 class="panel-title">                              
-                                    <a data-toggle="collapse" data-parent="#accordion" href="#collapse-2" class="collapsed"> <strong>Judit Jyothi Hochbaum</strong> </a>
-                                    </h4>
-                            </div>
-                            <div id="collapse-2" class="panel-collapse collapse">
-                                <div class="panel-body">
+                    <div>
+                        <input type="checkbox" class="read-more-state" id="post-3"/>
 
-
-
-                                    <img src="assets/img/2016-03-MK-100.jpg" class="portrait">
-                                    <ul>
-                                        <li>Assistentin der Studio-Leitung
-                                            <li>Dipl. Ernährungs- &amp; Gesundheitstrainer</li>
-                                            <li>Dipl. Ayurveda Wohlfühlpraktiker, nach Siddha Ved, Österreich</li>
-                                            <li>Tibetische Massage, Österreich</li>
-                                            <li>Wirbelsäulenkorrektur nach Baba Swami Ramdas, Österreich</li>
-                                            <li>seit 2013 zert. Yogalehrerin, Yoga Akademie Austria, Integraler Yoga</li>
-                                            <li>langjährige eigene Yogapraxis</li>
-                                    </ul>
-                                    <br>
-
-                                </div>
-                            </div>
-
-
-
-
-
-                        </div>
-
-
-
+                        <ul class="read-more-wrap">
+                            <li>Assistenz Studioleitung und Organisation</li>
+                            <li>Yogalehrerausbildung bei der Yoga Akademie Austria</li>
+                            <li>Weiterbildung Yoga für Schwangere bei Yoga Akademie Österreich</li>
+                            <li class="read-more-target">Weiterbildung Yoga für Mama &amp; Baby</li>
+                            <li class="read-more-target">Yin Yoga Teacher Training bei Joshua Summers</li>
+                            <li class="read-more-target">Yogatherapie bei Harilal</li>
+                            <li class="read-more-target">Yoga im medizinischen Kontext</li>
+                            <li class="read-more-target">Meditation bei Swami Saradananda </li>
+                            <li class="read-more-target">Hand- und Fußanalyse bei Rita Fasel und Dr. Rüdiger Dahlke</li>
+                            <li class="read-more-target">Organzonenmassage am Fuß bei Dr. Franz Wagner</li>
+                            <li class="read-more-target">Aromatherapieausbildung (ärztlich geprüfter Essential Oil Practicioner)</li>
+                            <li class="read-more-target">Bow Tech (dynamische Muskel- und Bindegewebstechnik)</li>
+                            <li class="read-more-target">Raindrop Technique </li>
+                            <li class="read-more-target">Aquarian Healing bei Robin Rogers</li>
+                        </ul>
+                        <label for="post-3" class="read-more-trigger"></label>
                     </div>
                 </div>
 
-
-
-                <div class="row">
-                    <div class="col-xs-12 panel-group" id="accordion">
-
-                        <div class="panel panel-default">
-                            <div class="panel-heading">
-                                <h4 class="panel-title">
-                                    <a data-toggle="collapse" data-parent="#accordion" href="#collapse-3" class="collapsed"> <strong>Heike-Marie Ushá Tuider</strong> </a>
-                                    </h4>
-                            </div>
-                            <div id="collapse-3" class="panel-collapse collapse">
-                                <div class="panel-body">
-
-                                    <img src="assets/img/2016-03-MK-100.jpg" class="portrait">
-                                    <ul>
-                                        <li><span>Assistenz Studioleitung und Organisation</span></li>
-                                        <li>Yogalehrerausbildung bei der Yoga Akademie Austria</li>
-                                        <li>Weiterbildung Yoga für Schwangere bei Yoga Akademie Österreich</li>
-                                        <li>Weiterbildung Yoga für Mama &amp; Baby</li>
-                                        <li>Yin Yoga Teacher Training bei Joshua Summers</li>
-                                        <li>Yogatherapie bei Harilal</li>
-                                        <li>Yoga im medizinischen Kontext</li>
-                                        <li>Meditation bei Swami Saradananda </li>
-                                        <li>Hand- und Fußanalyse bei Rita Fasel und Dr. Rüdiger Dahlke</li>
-                                        <li>Organzonenmassage am Fuß bei Dr. Franz Wagner</li>
-                                        <li>Aromatherapieausbildung (ärztlich geprüfter Essential Oil Practicioner)</li>
-                                        <li>Bow Tech (dynamische Muskel- und Bindegewebstechnik)</li>
-                                        <li>Raindrop Technique </li>
-                                        <li>Aquarian Healing bei Robin Rogers</li>
-                                    </ul>
-                                    <br>
-
-                                </div>
-                            </div>
-
-
-
-
-
-                        </div>
-
-
-
-                    </div>
-                </div>
-
-
-
-                <div class="row">
-                    <div class="col-xs-12 panel-group" id="accordion">
-
-                        <div class="panel panel-default">
-                            <div class="panel-heading">
-                                <h4 class="panel-title">
-                                    <a data-toggle="collapse" data-parent="#accordion" href="#collapse-4" class="collapsed"> <strong>Ronald Jagannath Tuider</strong> </a>
-                                    </h4>
-                            </div>
-                            <div id="collapse-4" class="panel-collapse collapse">
-                                <div class="panel-body">
-                                    <img src="assets/img/2016-03-MK-100.jpg" class="portrait">
-                                    <ul>
-                                        <li>Yogalehrerausbildung bei der Yoga Akademie Austria</li>
-                                        <li>Kirtan- Mantra-Sänger voller Hingabe und Begeisterung </li>
-                                    </ul>
-                                    <br>
-
-                                </div>
-                            </div>
-
-
-
-
-
-                        </div>
-
-
-
-                    </div>
-                </div>
-
-
-
-                <div class="row">
-                    <div class="col-xs-12 panel-group" id="accordion">
-
-                        <div class="panel panel-default">
-                            <div class="panel-heading">
-                                <h4 class="panel-title">
-                                    <a data-toggle="collapse" data-parent="#accordion" href="#collapse-5" class="collapsed"> <strong>Norbert Narayan Macek</strong> </a>
-                                    </h4>
-                            </div>
-                            <div id="collapse-5" class="panel-collapse collapse">
-                                <div class="panel-body">
-
-                                    <img src="assets/img/2016-03-MK-100.jpg" class="portrait">
-                                    <ul>
-                                        <li>Diplomierter Shiatsupraktiker, Europäisches Shiatsu Institut
-                                            <li>Geprüfter Yogalehrer, Ausbildung nach Sivananda, ausgebildet in Österreich und Indien
-                                                <li>Staatlich geprüfter Heilmasseur</li>
-                                    </ul>
-                                    <br>
-
-                                </div>
-                            </div>
-
-                        </div>
-
-                    </div>
-                </div>
-
-
-
-                <div class="row">
-                    <div class="col-xs-12 panel-group" id="accordion">
-
-                        <div class="panel panel-default">
-                            <div class="panel-heading">
-                                <h4 class="panel-title">
-                                    <a data-toggle="collapse" data-parent="#accordion" href="#collapse-6" class="collapsed"> <strong>Christa Chiranthana Rameder, MA</strong> </a>
-                                    </h4>
-                            </div>
-                            <div id="collapse-6" class="panel-collapse collapse">
-                                <div class="panel-body">
-
-                                    <img src="assets/img/2016-03-MK-100.jpg" class="portrait">
-                                    <ul>
-                                        <li>Yogalehrerausbildung bei der Yoga Akademie Austria</li>
-                                        <li>Laufend Weiterbildungen</li>
-                                        <li>Mehrjährige eigene Yogapraxis</li>
-                                        <li>Tätig im Bereich der Gesundheitsförderung und Prävention</li>
-                                        <li>Diaetologin</li>
-                                    </ul>
-                                    <br>
-
-                                </div>
-                            </div>
-
-                        </div>
-
-                    </div>
-                </div>
-
-
-
-                <div class="row">
-                    <div class="col-xs-12 panel-group" id="accordion">
-
-                        <div class="panel panel-default">
-                            <div class="panel-heading">
-                                <h4 class="panel-title">
-                                    <a data-toggle="collapse" data-parent="#accordion" href="#collapse-7" class="collapsed"> <strong>Margit Mangala Zeller</strong> </a>
-                                    </h4>
-                            </div>
-                            <div id="collapse-7" class="panel-collapse collapse">
-                                <div class="panel-body">
-
-                                    <img src="assets/img/2016-03-MK-100.jpg" class="portrait">
-                                    <ul>
-                                        <li>Yogalehrerausbildung bei der Yoga Akademie Austria</li>
-                                        <li>laufend Weiterbildungen</li>
-                                        <li>Reiki-Meisterin/Lehrerin</li>
-                                        <li>Karuna-REIKI &reg; Meisterin/Lehrerin</li>
-                                        <li>Energetikerin, Licht- und Energiearbeit, ua:
-                                            <ul style="margin-top:0pt; margin-left:12pt;">
-                                                <li>Associate Pranic Healer</li>
-                                                <li>PranaVita Ausbildung</li>
-                                                <li>Ägyptische Chakrenöle, ...</li>
-                                            </ul>
-                                        </li>
-                                    </ul>
-                                    <br>
-
-                                </div>
-                            </div>
-
-
-
-
-
-                        </div>
-
-
-
-                    </div>
-                </div>
-
-
-
-                <div class="row">
-                    <div class="col-xs-12 panel-group" id="accordion">
-
-                        <div class="panel panel-default">
-                            <div class="panel-heading">
-                                <h4 class="panel-title">
-                                    <a data-toggle="collapse" data-parent="#accordion" href="#collapse-8" class="collapsed"> <strong>Mag. Vera Vijaya Kern</strong> </a>
-                                    </h4>
-                            </div>
-                            <div id="collapse-8" class="panel-collapse collapse">
-                                <div class="panel-body">
-
-                                    <img src="assets/img/2016-03-MK-100.jpg" class="portrait">
-                                    <ul>
-                                        <li>Yogalehrerausbildung bei der Yoga Akademie Austria</li>
-                                        <li>Laufend Besuch von Seminaren, Kursen, Workshops, offenen Yogastunden und Vorträgen zu Asanapraxis, Kraft der Gedanken, Yoga-Ernährung, Yoga des Klanges, Meditation,...</li>
-                                        <li>Juristin</li>
-                                    </ul>
-                                    <br>
-
-                                </div>
-                            </div>
-
-
-
-
-
-                        </div>
-
-
-
-                    </div>
-                </div>
-
-
-
-                <div class="row">
-                    <div class="col-xs-12 panel-group" id="accordion">
-
-                        <div class="panel panel-default">
-                            <div class="panel-heading">
-                                <h4 class="panel-title">
-                                    <a data-toggle="collapse" data-parent="#accordion" href="#collapse-9" class="collapsed"> <strong>Karl Edy</strong> </a>
-                                    </h4>
-                            </div>
-                            <div id="collapse-9" class="panel-collapse collapse">
-                                <div class="panel-body">
-
-                                    <img src="assets/img/2016-03-MK-100.jpg" class="portrait">
-                                    <ul>
-                                        <li>Meditationslehrer</li>
-                                        <li>Geprüfter Yogalehrer, Ausbildung nach Sivananda, ausgebildet in Indien</li>
-                                        <li>Diplom Mentaltrainer, Business-Mentaltrainer</li>
-                                        <li>Trainerausbildung bei der Mentalakademie Europa</li>
-                                        <li>Autogenes Training</li>
-                                        <li>Energiearbeit</li>
-                                        <li>Channeling</li>
-                                    </ul>
-                                    <br>
-
-                                </div>
-                            </div>
-
-
-
-
-
-                        </div>
-
-
-
+                <div class="pinnwand">
+                    <img src="assets/img/ronald_ayuryoga.jpg" alt="Ronald Ayuryoga" class="portrait">
+                    <h4><strong>Ronald Jagannath Tuider</strong></h4>
+
+                    <div>
+                        <input type="checkbox" class="read-more-state" id="post-4"/>
+
+                        <ul class="read-more-wrap">
+                            <li>Yogalehrerausbildung bei der Yoga Akademie Austria</li>
+                            <li>Kirtan- Mantra-Sänger voller Hingabe und Begeisterung </li>
+                        </ul>
                     </div>
                 </div>
 
 
 
 
+                <div class="pinnwand">
+                    <img src="assets/img/norbert_ayuryoga.jpg" alt="Norbert Ayuryoga" class="portrait">
+                    <h4><strong>Norbert Narayan Macek</strong></h4>
 
+                    <div>
+                        <input type="checkbox" class="read-more-state" id="post-5"/>
+
+                        <ul class="read-more-wrap">
+                            <li>Diplomierter Shiatsupraktiker, Europäisches Shiatsu Institut</li>
+                            <li>Geprüfter Yogalehrer, Ausbildung nach Sivananda, ausgebildet in Österreich und Indien</li>
+                            <li>Staatlich geprüfter Heilmasseur</li>
+                        </ul>
+                    </div>
+                </div>
+
+
+
+                <div class="pinnwand">
+                    <img src="assets/img/christa_ayuryoga.jpg" alt="Christa Ayuryoga" class="portrait">
+                    <h4><strong>Christa Chiranthana Rameder, MA</strong></h4>
+
+                    <div>
+                        <input type="checkbox" class="read-more-state" id="post-6"/>
+
+                        <ul class="read-more-wrap">
+                            <li>Yogalehrerausbildung bei der Yoga Akademie Austria</li>
+                            <li>Laufend Weiterbildungen</li>
+                            <li>Mehrjährige eigene Yogapraxis</li>
+                            <li class="read-more-target">Tätig im Bereich der Gesundheitsförderung und Prävention</li>
+                            <li class="read-more-target">Diaetologin</li>
+                        </ul>
+                        <label for="post-6" class="read-more-trigger"></label>
+                    </div>
+                </div>
+
+
+
+                <div class="pinnwand">
+                    <img src="assets/img/margit_ayuryoga.jpg" alt="Margit Ayuryoga" class="portrait">
+                    <h4><strong>Margit Mangala Zeller</strong></h4>
+
+                    <div>
+                        <input type="checkbox" class="read-more-state" id="post-7"/>
+
+                        <ul class="read-more-wrap">
+                            <li>Yogalehrerausbildung bei der Yoga Akademie Austria</li>
+                            <li>laufend Weiterbildungen</li>
+                            <li>Reiki-Meisterin/Lehrerin</li>
+                            <li class="read-more-target">Karuna-REIKI &reg; Meisterin/Lehrerin</li>
+                            <li class="read-more-target">Energetikerin, Licht- und Energiearbeit, ua:
+                                <ul>
+                                    <li>Associate Pranic Healer</li>
+                                    <li>PranaVita Ausbildung</li>
+                                    <li>Ägyptische Chakrenöle, ...</li>
+                                </ul>
+                                <label for="post-7" class="read-more-trigger"></label>
+                        </ul>
+                    </div>
+                </div>
+
+
+
+                <div class="pinnwand">
+                    <img src="assets/img/vera_ayuryoga.jpg" alt="Vera Ayuryoga" class="portrait">
+                    <h4><strong>Mag. Vera Vijaya Kern</strong></h4>
+
+                    <div>
+                        <input type="checkbox" class="read-more-state" id="post-8"/>
+
+                        <ul class="read-more-wrap">
+                            <li>Juristin</li>
+                            <li>Yogalehrerausbildung bei der Yoga Akademie Austria</li>
+                            <li>Laufend Besuch von Seminaren, Kursen, Workshops, offenen Yogastunden und Vorträgen zu Asanapraxis, Kraft der Gedanken, Yoga-Ernährung, Yoga des Klanges, Meditation,...</li>
+                        </ul>
+                    </div>
+                </div>
+
+
+
+                <div class="pinnwand">
+                    <img src="assets/img/karl_edy_ayuryoga.jpg" alt="Karl Edy Ayuryoga" class="portrait">
+                    <h4><strong>Karl Edy</strong></h4>
+
+                    <div>
+                        <input type="checkbox" class="read-more-state" id="post-9"/>
+
+                        <ul class="read-more-wrap">
+                            <li>Meditationslehrer</li>
+                            <li>Geprüfter Yogalehrer, Ausbildung nach Sivananda, ausgebildet in Indien</li>
+                            <li>Diplom Mentaltrainer, Business-Mentaltrainer</li>
+                            <li class="read-more-target">Trainerausbildung bei der Mentalakademie Europa</li>
+                            <li class="read-more-target">Autogenes Training</li>
+                            <li class="read-more-target">Energiearbeit</li>
+                            <li class="read-more-target">Channeling</li>
+                            </ul>
+                            <label for="post-9" class="read-more-trigger"></label>
+                    </div>
+                </div>
+
+                <!--     closen om und content ! -->
             </div>
-
         </div>
 
 
-        <!--------------------------------- FOOTER ---------------------->
+        <!-- FOOTER -->
 
 
         <?php include("includes/footer.php");?>
 
-
-            <!--------------------------------- TRENNER ---------------------->
-
-
-
-            <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
-            <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
-            <!-- Include all compiled plugins (below), or include individual files as needed -->
-            <script src="assets/js/bootstrap.min.js"></script>
 
 </body>
 

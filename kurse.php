@@ -17,23 +17,9 @@
 
     <title> Kurse | AyurYoga </title>
 
-    <!-- Bootstrap -->
-    <link href="assets/css/bootstrap.min.css" rel="stylesheet">
-    <link href="assets/css/style.css" rel="stylesheet">
-    <link rel="icon" href="favicon.ico">
-
-    <link href='https://fonts.googleapis.com/css?family=Lora' rel='stylesheet' type='text/css'>
-
-    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
-    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
-    <!--[if lt IE 9]>
-      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
-      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
-    <![endif]-->
-
 </head>
 
-<body>
+<body class="animate-in">
 
     <!-- HEADER -->
 
@@ -42,7 +28,7 @@
         <!--------------------------------- CONTENT ---------------------->
 
 
-        <div class="center-align container content">
+        <div class="container content">
 
             <div class="om">
 
@@ -55,28 +41,34 @@
                     <p>Außerdem bietet es eine solide Basis an Yogawissen und Praxis, die man nach Belieben, mit verschiedenen Stilen erweitern kann - aber nicht muss. Denn dieses System ist für sich alleine&nbsp; vollständig.</p>
                     <p>Die <b>Rishikeshreihe</b>, wie sie in der Sivanandatradition und auch in unseren Anfängerkursen unterrichtet wird, beinhaltet eine Reihe von 12 Körperübungen (Asanas). Darüber hinaus wird der Fokus auf Atemübungen und Entspannung gelegt. </p>
 
-                   <br>
-                   
+                    <br>
+
                     <h4><strong>Kursinhalte</strong>:</h4>
+                    <ul class="yoga-list">
+                        <li> Asanas, Körperübungen</li>
+                        <li> Pranayama, Atemübungen</li>
+                        <li> Ernährung</li>
+                        <li> Entspannung</li>
+                        <li> Positives Denken</li>
+                        <li> Geistige Gesetze</li>
+                        <li> Meditation</li>
+                    </ul>
 
-                    <p>Asanas, Körperübungen</p>
-                    <p>Pranayama, Atemübungen</p>
-                    <p>Ernährung</p>
-                    <p>Entspannung</p>
-                    <p>Positives Denken</p>
-                    <p>Geistige Gesetze</p>
-                    <p>Meditation</p>
 
+                    <hr>
 
-                    <div class="border"> </div>
 
                     <h2 id=yoga_basiskurs> Yoga Basiskurs</h2>
 
                     <p>In diesem Kurs werden die wichtigsten Grundbegriffe und spirituellen Aspekte des Yoga unterrichtet, als optimale Vorbereitung auf die &quot;offene Stunde&quot;.</p>
 
+
+
                     <p> Mit Geduld, Dynamik und Hingabe wirst du in Theorie und Praxis mit Yoga vertraut gemacht:</p>
 
-                    <ul class="left-align">
+
+                    <br>
+                    <ul class="yoga-list">
                         <li>Yoga-Asanapraxis: Erlernen der 12 Grundstellungen, das Sonnengebet, Aufbau des Kopfstandes,&nbsp; K&ouml;rper&uuml;bungen f&uuml;r Herz, Kreislauf, Verdauung, R&uuml;cken, uvm.</li>
                         <li>Pranayama (Atemübungen) zur Stressbew&auml;ltigung, Konzentrationsverbesserung, hilft die Emotionen unter Kontrolle zu bringen</li>
                         <li>Yogische Ern&auml;hrung: ausgewogene, vegetarische Ern&auml;hrung im Alltag</li>
@@ -85,7 +77,7 @@
 
                     <br>
 
-                    <p><b>Dauer:</b> 5 Einheiten á 90 Min, jeweils 18:45 - 20:15 Uhr </p>
+                    <p><b>Dauer:</b> 5 Einheiten á 90 Min / jeweils 18:45 - 20:15 Uhr </p>
 
                     <br>
                     <p><u><b>Nächste Termine:</b></u></p>
@@ -100,7 +92,7 @@
 
                     <p><b>Kosten:</b>&nbsp; 120 &#8364; pro Person</p>
                     <p><b> Anmeldeschluss:</b> eine Woche vor Beginn; Anzahlung 40 &#8364;</p>
-                    <p> <b>Anmeldung &amp; Infos</b> unter 0660/8362906 oder per <a href="mailto:office@ayuryoga.at"> E-Mail </a>
+                    <p> <b>Anmeldung &amp; Infos</b> unter 0660/8362906 oder per <u><a href="mailto:office@ayuryoga.at"> E-Mail </a></u>
                     </p>
 
                     <br>
@@ -122,19 +114,6 @@
 
 
         <?php include("includes/footer.php");?>
-
-
-            <!-- TRENNER -->
-
-
-            <!--------------------------------- TRENNER ---------------------->
-
-
-            <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
-            <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
-            <!-- Include all compiled plugins (below), or include individual files as needed -->
-            <script src="assets/js/bootstrap.min.js"></script>
-
 
 </body>
 

@@ -15,75 +15,52 @@
     <meta name="copyright" content="www.ayuryoga.at">
     <meta name="author" content="Markus Hatvan">
 
-    <title> Anfahrt | AyurYoga   </title>
-
-    <!-- Bootstrap -->
-    <link href="assets/css/bootstrap.min.css" rel="stylesheet">
-    <link href="assets/css/style.css" rel="stylesheet">
-    <link rel="icon" href="favicon.ico">
-
-    <link href='https://fonts.googleapis.com/css?family=Lora' rel='stylesheet' type='text/css'>
-
-    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
-    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
-    <!--[if lt IE 9]>
-      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
-      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
-    <![endif]-->
-
+    <title> Anfahrt | AyurYoga </title>
 
 </head>
 
-<body>
+<body class="animate-in">
 
 
-<!-- HEADER -->
+    <!-- HEADER -->
 
     <?php include("includes/header.php"); ?>
-    
-    <!--------------------------------- CONTENT ---------------------->
+
+        <!--------------------------------- CONTENT ---------------------->
 
 
-    <div class="container content">
+        <div class="container content">
 
-        <div class="om">
+            <div class="om">
 
-            <h2> Anfahrt</h2>
+                <h2> Anfahrt</h2>
 
 
-            <p><strong> Adresse: </strong> <u>Am Spitz 16/14, 1210 Wien</u></p>
-            <p>Eingang links neben Betten Reiter </p>
+                <p><strong> Adresse: </strong> <u>Am Spitz 16/14, 1210 Wien</u></p>
+                <p> Eingang links neben Betten Reiter </p>
+                <br>
+                <p> Wir sind öffentlich mit folgenden Linien erreichbar: U6, Schnellbahn S1, 26, 31, 33, 33B, 29A </p>
+                <p>Das Studio ist eine halbe Stunde vor den Stunden bzw. Kursen besetzt, danach mindestens 15 Minuten. </p>
+                <p>Während den Stunden ist die Glocke abgeschaltet.</p>
 
-            <p> Wir sind öffentlich mit folgenden Linien erreichbar: U6, Schnellbahn S1, 26, 31, 33, 33B, 29A </p>
-            <p>Das Studio ist eine halbe Stunde vor den Stunden bzw. Kursen besetzt, danach mindestens 15 Minuten. </p>
-            <p>Während den Stunden ist die Glocke abgeschaltet.</p>
+                <br>
 
-            <br>
+                <p>
+                    <u><a href="https://www.google.at/maps/place/Studio+AyurYoga/@48.258464,16.397362,17z/data=!3m1!4b1!4m2!3m1!1s0x476d067ad8741ded:0x37026f70c04f9062?hl=de" target="_blank"> Google-Maps </a></u>
+                </p>
 
-            <p>
-                <a href="https://www.google.at/maps/place/Studio+AyurYoga/@48.258464,16.397362,17z/data=!3m1!4b1!4m2!3m1!1s0x476d067ad8741ded:0x37026f70c04f9062?hl=de" target="_blank"> Google-Maps </a>
-            </p>
+                <img src="assets/img/anfahrt.gif" alt="Anfahrt Studio Ayuryoga" id="anfahrt" class="img-responsive">
 
-            <img src="assets/img/anfahrt.gif" alt="Anfahrt Studio Ayuryoga" id="anfahrt" class="img-responsive">
+            </div>
 
         </div>
 
-    </div>
+
+        <!-- FOOTER -->
 
 
-    <!--------------------------------- FOOTER ---------------------->
+        <?php include("includes/footer.php");?>
 
-
-  <?php include("includes/footer.php"); ?>
-
-
-    <!--------------------------------- TRENNER ---------------------->
-
-   
-    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
-    <!-- Include all compiled plugins (below), or include individual files as needed -->
-    <script src="assets/js/bootstrap.min.js"></script>
 
 </body>
 

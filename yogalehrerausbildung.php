@@ -17,23 +17,9 @@
 
     <title> Yogalehrerausbildung | AyurYoga </title>
 
-    <!-- Bootstrap -->
-    <link href="assets/css/bootstrap.min.css" rel="stylesheet">
-    <link href="assets/css/style.css" rel="stylesheet">
-    <link rel="icon" href="favicon.ico">
-
-    <link href='https://fonts.googleapis.com/css?family=Lora' rel='stylesheet' type='text/css'>
-
-    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
-    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
-    <!--[if lt IE 9]>
-      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
-      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
-    <![endif]-->
-
 </head>
 
-<body>
+<body class="animate-in">
 
 
     <!-- HEADER -->
@@ -56,28 +42,26 @@
                 <p>Sie kann den Teilnehmer über regelmäßiges und intensives Praktizieren und damit verbundene Prozesse der inneren Reinigung, durch wesentliche Einsichten und Erkenntnisse zu einem &#8222;Quantensprung der persönlichen Entwicklung&#8220; führen. </p>
                 <p>Die Yogalehrer-Ausbildung ist damit nicht nur eine Berufsausbildung, sondern eine ganzheitlich persönlich-spirituelle Schulung, die das gesamte Leben des Teilnehmers grundlegend zu verbessern vermag.</p>
 
-                <img alt="Plakat-Yogalehrerausbildung" src="../assets/img/Lehrerausbildung-Folder.png" id="plakat-yogalehrerausbildung">
+                <a href="assets/img/Lehrerausbildung-Folder.png" target="_blank">
+                    <img src="assets/img/Lehrerausbildung-Folder.png" alt="Plakat-Yogalehrerausbildung" id="plakat-yogalehrerausbildung">
+                </a>
 
 
                 <p> Die nächste
-                    <a href="http://www.yogaakademie-austria.com/index.php/ausbildung-in-wien.html" target="_blank">fundierte Ausbildung
-                     </a>zum/r YogalehrerIn der <b>
-                     <a href="http://www.yogaakademie-austria.com/" target="_blank">Yoga Akademie Austria</a></b> wird bei uns im Studio von Michaela Kloosterman geleitet und folgt den Richtlinien der <a href="http://yogaalliance.org" target="_blank">Yoga Alliance</a>, einer internationalen Yoga-Organisation, welche weltweit strenge Standards an Teacher Trainings setzt und deren Qualität prüft. </p>
+                    <u><a href="http://www.yogaakademie-austria.com/index.php/ausbildung-in-wien.html" target="_blank">fundierte Ausbildung
+                         </a></u>zum/r YogalehrerIn der
+                    <u><a href="http://www.yogaakademie-austria.com/" target="_blank">Yoga Akademie Austria</a> </u>wird bei uns im Studio von Michaela Kloosterman geleitet und folgt den Richtlinien der <u><a href="http://yogaalliance.org" target="_blank">Yoga Alliance</a></u>, einer internationalen Yoga-Organisation, welche weltweit strenge Standards an Teacher Trainings setzt und deren Qualität prüft. </p>
 
                 <br>
                 <p>Nächster berufsbegleitender Ausbildungszyklus im Studio AyurYoga:</p>
 
 
                 <p><strong>Start:</strong> &nbsp;15. März 2016</p>
-                <p> jeweils <b>dienstags von 16:30 - 21:30 Uhr</b>
-                    <br> + 2 Intensiv-Praxiswochenenden </p>
-
-                <br>
-
+                <p> jeweils dienstags von 16:30 - 21:30 Uhr + 2 Intensiv-Praxiswochenenden </p>
                 <p><strong>Ende:</strong> November 2016 </p>
                 <br>
                 <p>Nähere Infos bei Martina Ringhofer:
-                    <a href="mailto:office@yogaakademie-austria.com"> E-Mail </a>
+                    <u><a href="mailto:office@yogaakademie-austria.com"> E-Mail </a></u>
                 </p>
 
             </div>
@@ -90,14 +74,6 @@
 
         <?php include ("includes/footer.php") ?>
 
-
-            <!--------------------------------- TRENNER ---------------------->
-
-
-            <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
-            <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
-            <!-- Include all compiled plugins (below), or include individual files as needed -->
-            <script src="assets/js/bootstrap.min.js"></script>
 
 </body>
 

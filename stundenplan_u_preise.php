@@ -17,79 +17,15 @@
 
     <title> Stundenplan & Preise | AyurYoga </title>
 
-    <!-- Bootstrap -->
-    <link href="assets/css/bootstrap.min.css" rel="stylesheet">
-    <link href="assets/css/style.css" rel="stylesheet">
-    <link rel="icon" href="favicon.ico">
-
-    <link href='https://fonts.googleapis.com/css?family=Lora' rel='stylesheet' type='text/css'>
-
-    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
-    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
-    <!--[if lt IE 9]>
-      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
-      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
-    <![endif]-->
-
-
 </head>
 
-<body>
+<body class="animate-in">
 
 
     <!-- HEADER -->
 
     <?php include("includes/header.php"); ?>
 
-
-
-        <!--------------------------------- HEADER ---------------------->
-
-        <!--
-
-    <div class="bg-img">
-        <div class=" container header">
-
-            <div class="col-xs-12 col-sm-3">
-                <div>
-                    <a href="../index.php"><img src="../assets/img/Studio%20AyurYoga_FA%20logo_Color.png" alt="Ayuryoga" width=200 id="logo" class="img-responsive"> </a>
-                </div>
-            </div>
-
-            <div class="col-xs-12 col-sm-9">
-                <ul class="nav nav-pills nav-justified">
-                    <li role="presentation"><a href="../index.php"> Home </a></li>
-
-                    <li role="presentation" class="dropdown"><a href="../_ueber_uns/ueber_uns.php" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false"> Über uns <span class="caret"></span></a>
-                        <ul class="dropdown-menu">
-                            <li> <a href="../_ueber_uns/das_team.php"> Das Team </a></li>
-                            <li> <a href="../_ueber_uns/anfahrt.php"> Anfahrt </a></li>
-                            <li> <a href="../_ueber_uns/kontakt.php"> Kontakt </a></li>
-                        </ul>
-                    </li>
-
-                    <li role="presentation" class="dropdown"><a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false"> Yoga <span class="caret"></span></a>
-                        <ul class="dropdown-menu">
-                            <li> <a href="../_yoga/was_ist_yoga.php"> Was ist Yoga? </a></li>
-                            <li> <a href="../_yoga/stundenbeschreibungen.php"> Stundenbeschreibungen </a></li>
-                            <li> <a href="../_yoga/stundenplan_u_preise.php"> Stundenplan & Preise </a></li>
-                            <li> <a href="../_yoga/kurse.php"> Kurse </a></li>
-                        </ul>
-                    </li>
-
-                    <li role="presentation"><a href="../_termine/termine.php"> Termine</a></li>
-
-                    <li role="presentation" class="dropdown"><a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Ausbildung <span class="caret"></span></a>
-                        <ul class="dropdown-menu">
-                            <li> <a href="../_ausbildung/yogalehrerausbildung.php"> Yogalehrerausbildung </a></li>
-                            <li> <a href="../_ausbildung/sonstige.php"> Sonstige</a></li>
-                        </ul>
-                    </li>
-                </ul>
-
-            </div>
-        </div>
--->
 
         <!--------------------------------- CONTENT ---------------------->
 
@@ -99,7 +35,12 @@
             <div class="om">
 
                 <h2> Stundenplan </h2>
-                <div class="table-responsive">
+                
+                <u><a href="assets/img/Stundenplan.png" target="_blank">
+                    Stundenplan als Bild</a></u>
+                <br><br>
+                
+                   <div class="table-responsive">
                     <table>
                         <thead>
                             <tr>
@@ -192,7 +133,6 @@
 
 
 
-
                 <br>
 
                 <p>Die Stunden finden immer statt, ausgenommen an Feiertagen und gesondert ausgeschriebenen Urlaubstagen.</p>
@@ -207,6 +147,11 @@
 
                 <h2> Preise </h2>
 
+                <u><a href="assets/img/Preise.png"  target="_blank">
+                    Preise als Bild</a></u>
+                <br><br>
+               
+               
                 <div class="table-responsive">
                     <table>
                         <thead>
@@ -316,6 +261,7 @@
                 <br>
 
                 <p>Die Klassen und Kurse werden von ausgebildeten Yogalehrern mit&nbsp; Liebe zum Unterrichten geleitet.</p>
+                <br>
                 <p><b>Wir freuen uns auf dein Kommen!</b></p>
 
 
@@ -330,17 +276,6 @@
 
 
         <?php include("includes/footer.php");?>
-
-
-            <!-- TRENNER -->
-
-
-            <!--------------------------------- TRENNER ---------------------->
-
-            <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
-            <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
-            <!-- Include all compiled plugins (below), or include individual files as needed -->
-            <script src="assets/js/bootstrap.min.js"></script>
 
 </body>
 
