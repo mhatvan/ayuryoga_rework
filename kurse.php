@@ -2,20 +2,13 @@
 <html lang="de">
 
 <head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
 
-    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <?php include("includes/link_meta.php"); ?>
 
-    <meta name="keywords" content="Studio AyurYoga,Yoga,Yogakurse,Meditation,Asanas,Pranayama,Ayurveda,Ayurveda-Kochkurse,Nuad,Thai-Massage,Passives-Yoga,Entspannung,Gesundheit">
-    <meta name="robots" content="index,follow">
-    <meta name="description" content="Ayuryoga - Ayurveda-Yoga-Shiatsu-Nuad-Meditation">
-    <meta name="organization" content="Ayuryoga">
-    <meta name="copyright" content="www.ayuryoga.at">
-    <meta name="author" content="Markus Hatvan">
+        <meta name="description" content="Unsere Anfängerkurse unterrichten wir im Stil von Sivananda, welcher ein Wachstum auf allen Ebenen ermöglicht.">
+        <meta name="keywords" content="ayuryoga, studio ayuryoga, yoga wien, yogastudio wien, yoga 1210, yoga floridsdorf, yoga basiskurs, yogalehrerausbildung, ayurveda, meditation">
 
-    <title> Kurse | AyurYoga </title>
+        <title> Kurse | AyurYoga </title>
 
 </head>
 
@@ -54,10 +47,7 @@
                         <li> Meditation</li>
                     </ul>
 
-
-                    <hr>
-
-
+                    <br>
                     <h2 id=yoga_basiskurs> Yoga Basiskurs</h2>
 
                     <p>In diesem Kurs werden die wichtigsten Grundbegriffe und spirituellen Aspekte des Yoga unterrichtet, als optimale Vorbereitung auf die &quot;offene Stunde&quot;.</p>

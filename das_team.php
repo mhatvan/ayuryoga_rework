@@ -2,18 +2,11 @@
 <html lang="de">
 
 <head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+   
+    <?php include("includes/link_meta.php"); ?>
 
-    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
-
-    <meta name="keywords" content="Studio AyurYoga,Yoga,Yogakurse,Meditation,Asanas,Pranayama,Ayurveda,Entspannung,Gesundheit">
-    <meta name="robots" content="index,follow">
-    <meta name="description" content="Ayuryoga - Ayurveda-Yoga-Shiatsu-Nuad-Meditation">
-    <meta name="organization" content="Ayuryoga">
-    <meta name="copyright" content="www.ayuryoga.at">
-    <meta name="author" content="Markus Hatvan">
+    <meta name="description" content="Wir sind ein Team von begeisterten, leidenschaftlich praktizierenden Yogalehrern, mit Ausbildungen in verschiedenen Yogastilen und Traditionen und meist langjähriger Unterrichtserfahrung.">
+    <meta name="keywords" content="ayuryoga, studio ayuryoga, yoga wien, yogastudio wien, yoga 1210, yoga floridsdorf, yoga basiskurs, yogalehrerausbildung, ayurveda, meditation">
 
     <title> Das Team | AyurYoga </title>
 
@@ -35,7 +28,7 @@
                 <p>Wir sind ein Team von begeisterten, leidenschaftlich praktizierenden Yogalehrern, mit Ausbildungen in verschiedenen Yogastilen und Traditionen und meist langjähriger Unterrichtserfahrung. </p>
                 <br>
 
-                <div class="pinnwand">
+                <div class="das_team">
                     <img src="assets/img/michaela_ayuryoga.jpg" alt="Michaela Ayuryoga" class="portrait">
                     <h4><strong>Michaela Omkari Kloosterman (Menzinger)</strong></h4>
 
@@ -68,7 +61,7 @@
 
 
 
-                <div class="pinnwand">
+                <div class="das_team">
                     <img src="assets/img/judit_ayuryoga.jpg" alt="Judit Ayuryoga" class="portrait">
                     <h4><strong>Judit Jyothi Hochbaum</strong></h4>
 
@@ -91,7 +84,7 @@
 
 
 
-                <div class="pinnwand">
+                <div class="das_team">
                     <img src="assets/img/heike_ayuryoga.jpg" alt="Heike Ayuryoga" class="portrait">
                     <h4><strong>Heike-Marie Ushá Tuider</strong></h4>
 
@@ -118,7 +111,7 @@
                     </div>
                 </div>
 
-                <div class="pinnwand">
+                <div class="das_team">
                     <img src="assets/img/ronald_ayuryoga.jpg" alt="Ronald Ayuryoga" class="portrait">
                     <h4><strong>Ronald Jagannath Tuider</strong></h4>
 
@@ -135,7 +128,7 @@
 
 
 
-                <div class="pinnwand">
+                <div class="das_team">
                     <img src="assets/img/norbert_ayuryoga.jpg" alt="Norbert Ayuryoga" class="portrait">
                     <h4><strong>Norbert Narayan Macek</strong></h4>
 
@@ -152,7 +145,7 @@
 
 
 
-                <div class="pinnwand">
+                <div class="das_team">
                     <img src="assets/img/christa_ayuryoga.jpg" alt="Christa Ayuryoga" class="portrait">
                     <h4><strong>Christa Chiranthana Rameder, MA</strong></h4>
 
@@ -172,7 +165,7 @@
 
 
 
-                <div class="pinnwand">
+                <div class="das_team">
                     <img src="assets/img/margit_ayuryoga.jpg" alt="Margit Ayuryoga" class="portrait">
                     <h4><strong>Margit Mangala Zeller</strong></h4>
 
@@ -197,7 +190,7 @@
 
 
 
-                <div class="pinnwand">
+                <div class="das_team">
                     <img src="assets/img/vera_ayuryoga.jpg" alt="Vera Ayuryoga" class="portrait">
                     <h4><strong>Mag. Vera Vijaya Kern</strong></h4>
 
@@ -214,7 +207,7 @@
 
 
 
-                <div class="pinnwand">
+                <div class="das_team">
                     <img src="assets/img/karl_edy_ayuryoga.jpg" alt="Karl Edy Ayuryoga" class="portrait">
                     <h4><strong>Karl Edy</strong></h4>
 

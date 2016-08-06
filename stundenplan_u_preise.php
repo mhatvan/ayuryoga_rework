@@ -2,20 +2,13 @@
 <html lang="de">
 
 <head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
 
-    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <?php include("includes/link_meta.php"); ?>
 
-    <meta name="keywords" content="Studio AyurYoga,Yoga,Yogakurse,Meditation,Asanas,Pranayama,Ayurveda,Ayurveda-Kochkurse,Nuad,Thai-Massage,Passives-Yoga,Entspannung,Gesundheit">
-    <meta name="robots" content="index,follow">
-    <meta name="description" content="Ayuryoga - Ayurveda-Yoga-Shiatsu-Nuad-Meditation">
-    <meta name="organization" content="Ayuryoga">
-    <meta name="copyright" content="www.ayuryoga.at">
-    <meta name="author" content="Markus Hatvan">
+        <meta name="description" content="Die Stunden finden immer statt, ausgenommen an Feiertagen und gesondert ausgeschriebenen Urlaubstagen. Einlass max. 15 Minuten vor Stundenbeginn.">
+        <meta name="keywords" content="ayuryoga, studio ayuryoga, yoga wien, yogastudio wien, yoga 1210, yoga floridsdorf, yoga basiskurs, yogalehrerausbildung, ayurveda, meditation">
 
-    <title> Stundenplan & Preise | AyurYoga </title>
+        <title> Stundenplan & Preise | AyurYoga </title>
 
 </head>
 
@@ -35,12 +28,13 @@
             <div class="om">
 
                 <h2> Stundenplan </h2>
-                
-                <u><a href="assets/img/Stundenplan.png" target="_blank">
+                <div>
+                    <u><a href="assets/img/Stundenplan.png" target="_blank">
                     Stundenplan als Bild</a></u>
-                <br><br>
-                
-                   <div class="table-responsive">
+                </div>
+                <br>
+
+                <div class="table-responsive">
                     <table>
                         <thead>
                             <tr>
@@ -146,12 +140,13 @@
                 <br>
 
                 <h2> Preise </h2>
-
-                <u><a href="assets/img/Preise.png"  target="_blank">
+                <div>
+                    <u><a href="assets/img/Preise.png"  target="_blank">
                     Preise als Bild</a></u>
-                <br><br>
-               
-               
+                </div>
+                    <br>
+                    
+
                 <div class="table-responsive">
                     <table>
                         <thead>

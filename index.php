@@ -2,23 +2,16 @@
 <html lang="de">
 
 <head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
 
-    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <?php include("includes/link_meta.php"); ?>
 
-    <meta name="description" content="Willkommen im Yoga-Studio Ayuryoga! Wir würden uns freuen, gemeinsam mit dir ein Stück deines Weges gehen zu dürfen!">
-    <meta name="keywords" content="Studio AyurYoga, Yoga, Yoga Basiskurs, Ayurveda">
-    <meta name="author" content="Michaela Kloosterman">
-    <meta name="publisher" content="Markus Hatvan">
-    <meta name="copyright" content="Studio AyurYoga">
-    <meta name="robots" content="index,follow">
-    <meta name="language" content="de-at">
-    <meta name="organization" content="Ayuryoga">
 
-    <title> AyurYoga | Yoga-Ayurveda-Meditation </title>
-    
+        <meta name="description" content="In einer entspannten, liebevollen Atmosphäre unterrichten wir Yoga, als Ausgleich zum stressigen Alltag für Anfänger und Fortgeschrittene.
+        Hatha Yoga, Flow Yoga & Yogalehrer-Ausbildung der Yoga Akademie Austria in 1210 Wien Floridsdorf">
+        <meta name="keywords" content="ayuryoga, studio ayuryoga, yoga wien, yogastudio wien, yoga 1210, yoga floridsdorf, yoga basiskurs, yogalehrerausbildung, ayurveda, meditation">
+
+        <title> AyurYoga | Yoga-Ayurveda-Meditation </title>
+
 </head>
 
 <body class="animate-in">
@@ -38,32 +31,39 @@
 
                 <h1 class="center-align"> Willkommen im Studio AyurYoga! </h1>
                 <br>
-               
-                <h2> Aktuelle Termine: </h2>
-            
+
+                <h2> Aktuelle Termine </h2>
+
                 <div class="pinnwand">
-                    <p><strong>Urlaubssperre</strong> von Mi. 13. Juli bis inkl. Di. 2. Aug. (mit Umbau des Studios für Air-Yoga)</p>
-                    <p><strong>Infotag zur <u><a href="http://www.yoga-und-bewegung.at/ausbildungen/" target="_blank">Kinderyogalehrer-Ausbildung:</a></u></strong> Sa. 6. Aug. von 9:30 -11:30 Uhr </p>
-                    <p><strong><u><a href="veranstaltungen.php"> Sonderprogramm</a></u></strong> zum Besuch von <em>Swami Nivedanananda</em> aus Kerala: </p>
-                    <li>
-                        <strong>31. August:</strong> Yogaklasse und Chanten, 17:00 Uhr </li>
-                    <li>
+                    <div class="pinnwand_innen">
+                        <p><strong>Urlaubssperre</strong> von Mi. 13. Juli bis inkl. Di. 2. Aug. (mit Umbau des Studios für Air-Yoga)</p>
+                        <hr>
+                        <p><strong>Infotag zur <u><a href="http://www.yoga-und-bewegung.at/ausbildungen/" target="_blank">Kinderyogalehrer-Ausbildung:</a></u></strong> Sa. 6. Aug. von 9:30 -11:30 Uhr </p>
+                        <hr>
+                        <p><strong><u><a href="veranstaltungen.php">Sonderprogramm</a></u></strong> zum Besuch von <em>Swami Nivedanananda</em> aus Kerala: </p>
 
-                        <strong>1. September:</strong> Yogaklasse und Chanten, 18:00 Uhr</li>
-                    <li>
+                        <li>
+                            <strong>31. August:</strong> Yogaklasse und Chanten, 17:00 Uhr </li>
+                        <li>
 
-                        <strong>2. September:</strong> Puja, 18:30 Uhr</li>
-                    <li>
+                            <strong>1. September:</strong> Yogaklasse und Chanten, 18:00 Uhr</li>
+                        <li>
 
-                        <strong>3. September:</strong> Chanten, 17:00 Uhr</li>
+                            <strong>2. September:</strong> Puja, 18:30 Uhr</li>
+                        <li>
+
+                            <strong>3. September:</strong> Chanten, 17:00 Uhr</li>
 
 
-
-                    <p><strong><u><a href="kurse.php#yoga_basiskurs">Yoga Basiskurs:</a></u></strong> ab Do. 8. Sep 18:45 Uhr, 5 Wochen </p>
-                    <p><strong>Ausbildung zur <u><a href="http://www.yoga-und-bewegung.at/ausbildungen/" target="_blank">Kinderyogalehrer-Ausbildung:</a></u></strong> 24. Sep. - 27.Nov., an 4 Wochenenden. </p>
-                    <p><strong>Yoga Intensiv-Wochenend Kurs:</strong> Sa./So. 8./9. Okt., 9:00 - 12:00 Uhr</p>
-                    <p><strong>Shiatsu gegen Kopf- & Rückenschmerzen</strong> mit <em>Paul Kloosterman</em> </p>
-
+                        <hr>
+                        <p><strong><u><a href="kurse.php#yoga_basiskurs">Yoga Basiskurs:</a></u></strong> ab Do. 8. Sep 18:45 Uhr, 5 Wochen </p>
+                        <hr>
+                        <p><strong>Ausbildung zur <u><a href="http://www.yoga-und-bewegung.at/ausbildungen/" target="_blank">Kinderyogalehrer-Ausbildung:</a></u></strong> 24. Sep. - 27.Nov., an 4 Wochenenden. </p>
+                        <hr>
+                        <p><strong>Yoga Intensiv-Wochenend Kurs:</strong> Sa./So. 8./9. Okt., 9:00 - 12:00 Uhr</p>
+                        <hr>
+                        <p><strong>Shiatsu gegen Kopf- & Rückenschmerzen</strong> mit <em>Paul Kloosterman</em> </p>
+                    </div>
                 </div>
 
                 <p>

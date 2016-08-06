@@ -2,18 +2,11 @@
 <html lang="de">
 
 <head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+       
+    <?php include("includes/link_meta.php"); ?>
 
-    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
-
-    <meta name="keywords" content="Studio AyurYoga,Yoga,Yogakurse,Meditation,Asanas,Pranayama,Ayurveda,Ayurveda-Kochkurse,Nuad,Thai-Massage,Passives-Yoga,Entspannung,Gesundheit">
-    <meta name="robots" content="index,follow">
-    <meta name="description" content="Ayuryoga - Ayurveda-Yoga-Shiatsu-Nuad-Meditation">
-    <meta name="organization" content="Ayuryoga">
-    <meta name="copyright" content="www.ayuryoga.at">
-    <meta name="author" content="Markus Hatvan">
+    <meta name="description" content="Meditation hat bewusstseinserweiternde Wirkung und fördert die spirituelle Entwicklung.">
+    <meta name="keywords" content="ayuryoga, studio ayuryoga, yoga wien, yogastudio wien, yoga 1210, yoga floridsdorf, yoga basiskurs, yogalehrerausbildung, ayurveda, meditation">
 
     <title> Meditation | AyurYoga </title>
 
@@ -33,12 +26,14 @@
             <div class="om">
 
                 <h2> Meditation </h2>
-
-
-                <img alt="Kerzenstimmung" class="kerzenstimmung" src="assets/img/Kerzenstimmung1.jpg"></h4>
                 <p><strong>Alles finden im eigenen Selbst</strong></p>
                 <p>Das wirklich anhaltende Glück, die Lösung jedes Problems und die letztendliche Erfüllung ist im eigenen Inneren zu finden. Durch Meditation kann man mit sich selbst in Kontakt treten und sich &#8222;finden&#8220;. </p>
+                </p>
+
+<!--                <img alt="Kerzenstimmung" class="kerzenstimmung" src="assets/img/Kerzenstimmung1.jpg">-->
+
                 <br>
+
                 <strong><p>Bewusstseinserweiterung</p></strong>
                 <p>Meditation hat bewusstseinserweiternde Wirkung und fördert die spirituelle Entwicklung. Es wird gezielt Eigenverantwortung gefördert, Freiheit und eine generelle Harmonisierung des Lebens sind die Folge. Durch Meditation entsteht ein inneres Lächeln, das nach und nach im Außen für die Umgebung sichtbar wird.</p>
                 <br>
@@ -46,17 +41,18 @@
                 <strong>  <p>Körperliches Wohlbefinden</p></strong>
                 <p>Eine Reihe von wissenschaftlichen Untersuchungen zeigen, dass die Effekte der Meditation nicht auf die subjektive Empfindungswelt beschränkt sind, sondern nachweisbare Auswirkungen auf den physischen Körper haben. Die der Meditation zugeschriebenen Wirkungen sind vielfältig und allesamt positiv: Meditation mildert Symptome chronischer Krankheiten, reduziert Stress, senkt den Blutdruck, verbessert den Schlaf, stärkt das Immunsystem, etc.
                 </p>
-                
+
                 <br>
                 <strong><p>Konzentration und Sammlung </p></strong>
                 <p>Meditation ist weder anstrengend noch ermüdend. Durch Entspannungstechniken kommt sowohl Körper als auch Geist zur Ruhe. Es entsteht ein Verweilen im Augenblick, ein Gewahr sein, in dem letztlich alles zu erkennen ist. In diesem Zustand sind Gedanken sehr mächtig in ihrer Wirkung. Wünsche manifestieren sich rascher, körperliche Heilungen vollziehen sich, Depressionen wandeln sich in Glücksgefühle. </p>
+
 
                 <br>
                 <h2>Meditationen im Studio Ayuryoga</h2>
 
 
-                <img alt="Kerzenstimmung2" src="assets/img/Kerzenstimmung2.jpg" class="kerzenstimmung">
                 <strong>  <p>Nächste Themen und Termine</p></strong>
+<!--                <img alt="Kerzenstimmung2" src="assets/img/Kerzenstimmung2.jpg" class="kerzenstimmung">-->
                 <ul class="yoga-list">
                     <li>29.09.2016 - Erschaffung eines Wunders</li>
                     <li>27.10.2016 - Zero Point Adventure &#8211; Erfahrungen am Nullpunkt</li>
@@ -67,8 +63,8 @@
 
                 </p>
 
-<br>
-               
+                <br>
+
                 <strong> <p>Methoden und Techniken </p></strong>
 
                 <p>Die von uns durchgeführten Meditationen sind keiner speziellen Religion entnommen, vielmehr enthalten sie Elemente von vielen verschiedenen Strömungen und Richtungen.</p>

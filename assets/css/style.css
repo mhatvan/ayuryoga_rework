@@ -1,37 +1,18 @@
 /*
 
-IE: flickering background image, background keeps reloading, logo kurven pixelig ???
-Safari: font styling em and strong looks shit
+Safari: passt
 Chrome: passt
 Opera: passt
-firefox: Stundenpläne Tables sind verschoben links aligned?
 
-strange nav reloading disappeared?
+IE: flickering background image
 
-
-----
-
-
-TODO:
-
-seo.doc schauen
-
-Formvalidation bei Kontakt!!!  senden button an ofifce schicken
-
-ADWORDS / Google Analytics? weitere Tools?
-
-michaela findet nen text für meta description
-background image ändern -> wurzeln von michaela
-links on hover sollen underline sein, ansonsten nicht
-
-
+firefox: Stundenpläne Tables sind links verschoben, buggy
 
 <----------------------------> 
 
 last steps:
 
 minify html css js
-img optimization
 stylesheets zusammenfassen, weniger requests
 CDN einbinden DNS ändern
 
@@ -66,6 +47,11 @@ h1 {
 h2 {
     font-size: 2.4rem;
     margin-bottom: 25px;
+    /*    text-decoration:underline;*/
+    border-bottom: 1px solid black;
+    padding-bottom: 6px;
+    display: inline-block;
+    color: black;
 }
 
 .header {
@@ -361,7 +347,6 @@ th {
     text-align: left;
 }
 
-
 .panel-default>.panel-heading {
     background-color: rgba(245, 142, 35, 0.15);
 }
@@ -375,21 +360,12 @@ th {
 
 @media only screen and (max-width: 767px) {
     #swami {
-        width: 40%;
+        /*        width: 40%;*/
     }
 }
 
-.kerzenstimmung {
-    float: right;
-    margin-right: 5%;
-    margin-top: 2%;
-}
 
-@media only screen and (max-width: 767px) {
-    .kerzenstimmung {
-        width: 50%;
-    }
-}
+/*
 
 
 /* Transition between Pages */
@@ -424,13 +400,18 @@ th {
 }
 
 .pinnwand {
+    background-color: rgb(245, 142, 35);
+    padding: 2px;
+    line-height: 30px;
+    min-height: 200px;
+    margin-bottom: 10px;
+}
+
+.pinnwand_innen {
     background-color: #FFFBA3;
     padding: 15px;
-    padding-left: 25px;
-    border: 1px solid rgba(0, 0, 0, 0.5);
-    margin-bottom: 15px;
+    padding-bottom: 5px;
     line-height: 30px;
-    /*    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.25);*/
     min-height: 200px;
 }
 
@@ -463,10 +444,10 @@ th {
     cursor: pointer;
     display: inline-block;
     padding: 0 .5em;
-    color: rgba(3, 3, 3, 0.67);
+    color: #BD0B12;
     font-size: .9em;
     line-height: 2;
-    border: 1px solid rgba(0, 0, 0, 0.49);
+    border: 1px solid #BD0B12;
     border-radius: .25em;
 }
 
@@ -481,10 +462,80 @@ th {
 @media only screen and (max-width: 767px) {
     .portrait {
         float: none;
-            display: block;
-        margin: auto;
+        display: block;
+        /*        margin: auto;*/
         margin-bottom: 15px;
-        
     }
 }
 
+.das_team {
+    background-color: #FFFBA3;
+    padding: 15px;
+    border: 1px solid rgba(0, 0, 0, 0.5);
+    line-height: 30px;
+    min-height: 200px;
+    margin-bottom: 15px;
+}
+
+.pinnwand_innen li {
+    margin-left: 20px;
+}
+
+#commentForm input,
+#commentForm label {
+    display: inline-block;
+}
+
+.form {
+    font-size: 100%;
+    width: 100px;
+    font-weight: bold;
+    margin: 2px 0;
+}
+
+input {
+    width: 250px;
+    padding: 5px;
+    margin: 2px 0;
+}
+
+textarea {
+    width: 250px;
+    padding: 5px;
+    margin: 2px 0;
+    vertical-align: top;
+    border: 1px solid rgba(119, 119, 119, 0.59);;
+}
+
+#contact-button {
+    width: 250px;
+    margin-top: 15px;
+}
+
+
+@media only screen and (min-width: 321px) {
+    #contact-button {
+    width: 250px;
+    margin-top: 15px;
+        margin-left: 104px;
+    }
+}
+
+.error, .valid{
+    width: 250px;
+    margin-right: 30px;
+    
+}
+
+
+.error {
+    color: red;
+}
+
+.valid {
+    color: green;
+}
+
+#cname-error, #cemail-error {
+    width: auto;
+}

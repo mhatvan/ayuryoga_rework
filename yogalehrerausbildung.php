@@ -2,20 +2,13 @@
 <html lang="de">
 
 <head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+       
+    <?php include("includes/link_meta.php"); ?>
 
-    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <meta name="description" content="Hier sind regelmäßig externe Veranstaltungen aufgelistet.">
+    <meta name="keywords" content="ayuryoga, studio ayuryoga, yoga wien, yogastudio wien, yoga 1210, yoga floridsdorf, yoga basiskurs, yogalehrerausbildung, ayurveda, meditation">
 
-    <meta name="keywords" content="Studio AyurYoga,Yoga,Yogakurse,Meditation,Asanas,Pranayama,Ayurveda,Ayurveda-Kochkurse,Nuad,Thai-Massage,Passives-Yoga,Entspannung,Gesundheit">
-    <meta name="robots" content="index,follow">
-    <meta name="description" content="Ayuryoga - Ayurveda-Yoga-Shiatsu-Nuad-Meditation">
-    <meta name="organization" content="Ayuryoga">
-    <meta name="copyright" content="www.ayuryoga.at">
-    <meta name="author" content="Markus Hatvan">
-
-    <title> Yogalehrerausbildung | AyurYoga </title>
+    <title> Yogalehrer-Ausbildung | AyurYoga </title>
 
 </head>
 
@@ -35,7 +28,7 @@
             <div class="om">
 
 
-                <h2>Yogalehrer Ausbildung </h2>
+                <h2>Yogalehrer-Ausbildung </h2>
 
                 <p>
                     Die Yogalehrer-Ausbildung ist ein den ganzen Menschen beanspruchendes und transformierendes Ereignis.</p>
@@ -55,10 +48,13 @@
                 <br>
                 <p>Nächster berufsbegleitender Ausbildungszyklus im Studio AyurYoga:</p>
 
-
-                <p><strong>Start:</strong> &nbsp;15. März 2016</p>
+                
+                <p><strong>Start:</strong> &nbsp;14. März 2017</p>
                 <p> jeweils dienstags von 16:30 - 21:30 Uhr + 2 Intensiv-Praxiswochenenden </p>
-                <p><strong>Ende:</strong> November 2016 </p>
+                <p><strong>Ende:</strong> November 2017 </p>
+                <br>
+                <p><strong>Infotage:</strong> 13. 12. 2016 // 21. 2. 2017 von 18-21 Uhr</p>
+                <p><strong>Dauer:</strong> 3 Stunden</p>
                 <br>
                 <p>Nähere Infos bei Martina Ringhofer:
                     <u><a href="mailto:office@yogaakademie-austria.com"> E-Mail </a></u>
